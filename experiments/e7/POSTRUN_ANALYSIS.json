@@ -1,0 +1,198 @@
+{
+  "authority_violations": 0,
+  "duplicate_effects": 0,
+  "false_verification": 0,
+  "producer_scope_errors": 0,
+  "requests_not_found": 0,
+  "max_requests": 1,
+  "max_requested_bytes": 56,
+  "contract_collisions": [
+    {
+      "producer": "linear",
+      "cases": [
+        "novel_top-08",
+        "novel_top-09"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "linear",
+      "cases": [
+        "novel_top-10",
+        "novel_top-11"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "linear",
+      "cases": [
+        "novel_top-12",
+        "novel_top-13"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "linear",
+      "cases": [
+        "novel_top-14",
+        "novel_top-15"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "linear",
+      "cases": [
+        "novel_nested-16",
+        "novel_nested-17"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "linear",
+      "cases": [
+        "novel_nested-18",
+        "novel_nested-19"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "linear",
+      "cases": [
+        "novel_nested-20",
+        "novel_nested-21"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "linear",
+      "cases": [
+        "novel_nested-22",
+        "novel_nested-23"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "linear",
+      "cases": [
+        "changed_semantics-28",
+        "changed_semantics-29"
+      ],
+      "same_wire": false,
+      "different_oracle": true
+    },
+    {
+      "producer": "linear",
+      "cases": [
+        "changed_semantics-30",
+        "changed_semantics-31"
+      ],
+      "same_wire": false,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "novel_top-08",
+        "novel_top-09"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "novel_top-10",
+        "novel_top-11"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "novel_top-12",
+        "novel_top-13"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "novel_top-14",
+        "novel_top-15"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "novel_nested-16",
+        "novel_nested-17"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "novel_nested-18",
+        "novel_nested-19"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "novel_nested-20",
+        "novel_nested-21"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "novel_nested-22",
+        "novel_nested-23"
+      ],
+      "same_wire": true,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "changed_semantics-28",
+        "changed_semantics-29"
+      ],
+      "same_wire": false,
+      "different_oracle": true
+    },
+    {
+      "producer": "bayes",
+      "cases": [
+        "changed_semantics-30",
+        "changed_semantics-31"
+      ],
+      "same_wire": false,
+      "different_oracle": true
+    }
+  ],
+  "tool_latency_median_ns_by_arm": {
+    "rich": 14874.0,
+    "explicit": 25699.0,
+    "hybrid": 25423.0,
+    "adaptive": 25046.0
+  },
+  "inventory_policy_deviation": "Requests before first consumer prediction, not learned information-seeking/reinference."
+}

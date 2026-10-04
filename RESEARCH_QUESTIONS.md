@@ -21,3 +21,7 @@ Cross-cutting economic question: does specialization or modularity reduce full-s
 | Coherence and recovery | Fracture, SHAD0W, AetherForge | Fault injection, durable workflows, actors, robotics, protocol types |
 
 The most important unresolved question is whether useful semantic interfaces can be discovered and evolved cheaply enough without merely relocating intelligence and cost into adapters and assurance machinery.
+
+## Executed-experiment refinement — October 4, 2026
+
+E4.1 distinguishes omission from defaults: safe nonexecution can need little state, useful coherent progress needs specific distinctions in the fixed world. E7 shifts the immediate gap from merely transporting sufficient facts to whether the consumer uses their scope and conflicts: full hybrid support was available yet ignored by learned consumers. The next uncertainty is whether reliable producer assessments induce a consumer shortcut that defeats adaptive evidence, or whether another integration/learning failure explains it. This is an inference to test, not a redesign justified by unseen success.

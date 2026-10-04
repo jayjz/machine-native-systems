@@ -64,3 +64,7 @@ The largest actual gap is executed controlled comparisons, not another general l
 [E4 artifact-release handoff](e4-boundary/README.md): protocol and confound review written before implementation; run-001 compares full controlled prose/JSON/hybrid and compact JSON. Full formats tie; compact loses semantics/recovery under optimistic defaults. Raw results, exact configuration, limitations, and next-test falsification are preserved. This is not a model benchmark or framework.
 
 [E4.1 defaults × semantic subsets](e4-1/README.md), executed: conservative compact prevents duplicates but loses useful work; alternatives + attempt + status matches full in this finite world, receipt reference redundant. All 32 subsets/default policies and reference retained. Next is E7 novelty with a development-frozen interface and learned components.
+
+## E7. Semantic sufficiency under novelty — executed bounded learned pilot
+
+[Protocol, exact run and limitations](e7/README.md). Two discriminative/generative classifier families on each side; frozen development interface then held-out novel variables/locations. Rich/shared, explicit, hybrid and inventory-first adaptive arms. Rich is better; adaptive retrieves missing top-level state cheaply but decisions do not improve, hybrid fails despite full context. No universal model or architecture claim. See falsification criteria and their observed failures in RESULTS. E7.1 belief-reliability × belief-masking factorial is the single justified next experiment; not implemented.

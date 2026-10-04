@@ -66,3 +66,14 @@ The source registers in the imported reports are authoritative for this baseline
 - Repositories/sources: this harness; E4 baseline; no new primary retrieval.
 - Next experiment: E7 frozen contract, heterogeneous learned components and missing-information requests.
 - Artifacts: [protocol](experiments/e4-1/PROTOCOL.md), [results](experiments/e4-1/RESULTS.md), [raw summary](experiments/e4-1/results/run-001/summary.json), [reproduction](experiments/e4-1/README.md).
+
+## E7 semantic sufficiency under bounded learned novelty
+
+- Question/date: can frozen boundaries preserve consequential meaning under new context/variables and learned replacement? October 4, 2026.
+- Major finding: rich 40/40 linear, 37/40 NB; explicit/hybrid/adaptive 29/40 in all four pairings. Cheap specific retrieval did not change decisions; full hybrid context also failed.
+- Strongest counterevidence: contracted outputs create ten incoherent effects despite valid authority/evidence; schemas/distributions do not enforce scope. Rich is smaller and better here. Same-author bounded classifiers and inventory-first requests constrain the result.
+- Unresolved: why did consumers ignore consequential support once a reliable producer belief was present?
+- Relevant repositories: this E7 harness and reused E4 simulator; original motivating repositories unchanged.
+- Primary sources: existing research registers only, no new retrieval; exact local package configuration preserved.
+- Next experiment: E7.1 belief reliability/masking factorial at identical supporting context with new untouched heldout.
+- Full artifacts: [protocol](experiments/e7/PROTOCOL.md), [results](experiments/e7/RESULTS.md), [summary](experiments/e7/results/run-001/summary.json), [raw](experiments/e7/results/run-001/raw.jsonl.gz), [reproduction](experiments/e7/README.md), [postrun audit](experiments/e7/POSTRUN_ANALYSIS.json).
