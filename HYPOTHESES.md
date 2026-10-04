@@ -38,6 +38,16 @@ Semantic interface discovery and evolution; calibration under interaction and sh
 
 ## Experimentally established claims
 
-**No proposed experiment in this research program was executed by these investigations.** No general architectural superiority claim is established.
+**At the October 2–3 synthesis baseline, no proposed experiment had been executed.** Subsequent finite E4 evidence is recorded below; no general architectural superiority claim is established.
 
 External papers report task- or model-specific experiments under their stated conditions. TEMPER reports validation macro F1 0.9539 versus 0.8864 for its compared baselines, but this session did not reproduce it or establish calibration, OOS behavior, general-model superiority, or full-system savings. Repository tests and source inspection establish narrower implementation facts and should not be promoted into thesis-level results.
+
+## E4 evidence update — October 4 UTC / October 3 local, 2026
+
+See [protocol](experiments/e4-boundary/PROTOCOL.md), [results and confounds](experiments/e4-boundary/RESULTS.md), and lossless raw results. 20 unique fixtures, 640 crossed scripted executions, zero model calls.
+
+Observation: controlled-prose, full JSON, and hybrid arms tie on decisions, recovery, and scripted replacement. Compact JSON disagrees in six unique cases and duplicates effects in two; no unauthorized effect or narrow false completion verification is recorded. Strict consumers reject v2, losing useful work relative to compatible consumers.
+
+H1 gains no evidence of typed-format superiority; any claim that nonlinguistic encoding is necessary here is weakened. Controlled prose already carries explicit semantics, so contract versus no contract is untested. H2 has narrow mechanism-check evidence under a shared gate. H4 has fixture-specific evidence about attempt linkage. H5 has authored-adapter compatibility evidence, not learned component generalization. H3 remains untested.
+
+Optimistic compact defaults are a confound. The result does not establish that all dropped fields are necessary; conservative compact behavior remains an untested rival. General empirical advantage remains unresolved. Next justified experiment: one-field restoration versus conservative missing-state semantics.

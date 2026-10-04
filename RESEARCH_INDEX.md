@@ -44,3 +44,15 @@ Use this index to locate existing evidence, then read the full artifact. Entries
 4. Prefer a falsifiable experiment when another literature summary will not resolve the uncertainty.
 
 The source registers in the imported reports are authoritative for this baseline. Some URLs are mutable; pins and version caveats are recorded where available. There is no claim that full publisher PDFs or all raw retrieval output have been archived.
+
+## E4 executable boundary exploration
+
+- **Question:** Which semantic distinctions survive producer-to-release-consumer handoff across equally informative formats, compact abstraction, component replacement, and version evolution?
+- **Date:** October 4 UTC / October 3 local, 2026.
+- **Major finding:** Full controlled prose, JSON and hybrid tie on 20 fixtures; compact disagrees on six and duplicates effects on two. No universal format advantage established.
+- **Strongest counterevidence/confound:** Full arms preserve the same fields by construction; compact uses optimistic defaults. Conservative compact is untested. Scripted containers are not different learned intelligence.
+- **Unresolved question:** Which field restorations improve coherence beyond fail-closed missing-state behavior?
+- **Relevant repositories:** This synthetic harness; SHAD0W/TraceForge motivated attempt/evidence distinctions but their code was not reused.
+- **Important primary sources:** Existing source registers only; no additional external retrieval.
+- **Next experiment:** One-field restoration versus conservative missing-state semantics; explicit criteria in RESULTS.
+- **Full artifacts:** [protocol](experiments/e4-boundary/PROTOCOL.md), [harness](experiments/e4-boundary/run.py), [fixtures](experiments/e4-boundary/fixtures.json), [results](experiments/e4-boundary/RESULTS.md), [raw archive](experiments/e4-boundary/results/run-001/raw.jsonl.gz), [configuration](experiments/e4-boundary/results/run-001/configuration.json).

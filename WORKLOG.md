@@ -31,3 +31,11 @@ User requested `jayjz/machine-native-systems` as a PRIVATE research repository. 
 Imported both reports without edits and exported the complete text available from the pasted transcript. Added questions, hypotheses, experiment consolidation, index, agent instructions, and provenance notes. These are derived organizational documents, not new empirical results.
 
 See [PRESERVATION_INVENTORY.md](research/session/PRESERVATION_INVENTORY.md) for byte-integrity records and unavailable raw materials. Future work must follow existing evidence → actual gap → targeted retrieval → experiment.
+
+## October 4 UTC / October 3 local, 2026 — E4 actionable boundary experiment
+
+Read canonical main research, hypotheses, questions, six proposals, provenance and AGENTS before implementation. Base revision `760697b40d2946647a5a69301f4ad34bfc07e2e8`. Chose E4 for a cheap direct handoff comparison; E3 semantic omission and a small E5 recovery subset are explicitly included. No new literature retrieval.
+
+Preregistered protocol/confounds in a local commit before implementation. Implemented a Python-standard-library synthetic release simulator, four wire formats, two scripted producer representations, two consumer-version policies, 20 oracle fixtures and replacement/replay. Five trust-boundary/integrity tests passed; ran 640 rows once. Raw rows were losslessly compressed and checksummed; no evaluated source or fixture was tuned afterward.
+
+Observed full-format tie, six compact disagreements, two duplicate-effect fixtures, no credential violations/narrow false verification, and explicit version compatibility tax. Recorded that full equality is designed and compact's optimistic defaults are a confound. Do not infer a typed-format or intelligence-replacement advantage. Updated hypothesis status without editing imported research reports. Next test justified: one-field restoration versus conservative missing-state semantics. Research branch only; main not merged.

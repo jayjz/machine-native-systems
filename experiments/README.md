@@ -1,6 +1,6 @@
-# Proposed experiments — not implemented
+# Research experiments
 
-Consolidated from the preserved reports. **None has been executed by these investigations.** Preserve the original formulations and proposed thresholds in the reports; values below are not measured results.
+Consolidated from the preserved reports. **The initial synthesis did not execute these proposals. E4 now has a finite scripted boundary run; E1–E3/E5–E6 remain unexecuted.** Preserve the original formulations and proposed thresholds in the reports; values below are not measured results.
 
 ## E1. Bounded semantic decisions and total cost
 
@@ -58,3 +58,7 @@ Consolidated from the preserved reports. **None has been executed by these inves
 Pre-register losses, effect sizes, noninferiority margins, datasets, model/tool versions, failure assumptions, budgets, and oracle limitations. Use paired cases and uncertainty intervals. Report performance, risk, authority violations, recovery, and cost separately. Account for correlated proposer/verifier errors. Do not redesign interfaces on held-out evaluation cases.
 
 The largest actual gap is executed controlled comparisons, not another general literature memo.
+
+## Executed boundary exploration
+
+[E4 artifact-release handoff](e4-boundary/README.md): protocol and confound review written before implementation; run-001 compares full controlled prose/JSON/hybrid and compact JSON. Full formats tie; compact loses semantics/recovery under optimistic defaults. Raw results, exact configuration, limitations, and next-test falsification are preserved. This is not a model benchmark or framework.
