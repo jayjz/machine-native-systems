@@ -62,3 +62,5 @@ The largest actual gap is executed controlled comparisons, not another general l
 ## Executed boundary exploration
 
 [E4 artifact-release handoff](e4-boundary/README.md): protocol and confound review written before implementation; run-001 compares full controlled prose/JSON/hybrid and compact JSON. Full formats tie; compact loses semantics/recovery under optimistic defaults. Raw results, exact configuration, limitations, and next-test falsification are preserved. This is not a model benchmark or framework.
+
+[E4.1 defaults × semantic subsets](e4-1/README.md), executed: conservative compact prevents duplicates but loses useful work; alternatives + attempt + status matches full in this finite world, receipt reference redundant. All 32 subsets/default policies and reference retained. Next is E7 novelty with a development-frozen interface and learned components.

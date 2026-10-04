@@ -51,3 +51,9 @@ Observation: controlled-prose, full JSON, and hybrid arms tie on decisions, reco
 H1 gains no evidence of typed-format superiority; any claim that nonlinguistic encoding is necessary here is weakened. Controlled prose already carries explicit semantics, so contract versus no contract is untested. H2 has narrow mechanism-check evidence under a shared gate. H4 has fixture-specific evidence about attempt linkage. H5 has authored-adapter compatibility evidence, not learned component generalization. H3 remains untested.
 
 Optimistic compact defaults are a confound. The result does not establish that all dropped fields are necessary; conservative compact behavior remains an untested rival. General empirical advantage remains unresolved. Next justified experiment: one-field restoration versus conservative missing-state semantics.
+
+## E4.1 evidence update — October 4, 2026
+
+[Full results](experiments/e4-1/RESULTS.md): 32 field-subset/default-policy arms plus reference, 20 known fixtures. Conservative compact eliminates duplicates but withholds every eligible completion. Both restored fields recover old-attempt outcomes but do not support fresh useful execution without status. Alternatives + attempt + status is sufficient/minimal among these four omissions under either policy; receipt reference is redundant under exact attempt-indexed independent lookup.
+
+H1: narrower sufficient-state evidence only; fail-closed defaults alone can prevent incoherent effects. H4: independent attempt linkage matters here, mandatory transmission of receipt reference does not. H5: unchanged scripted-adapter scope. These are conditional reproduced claims in this fixture world, not general architecture guarantees. No H2/H3 update.

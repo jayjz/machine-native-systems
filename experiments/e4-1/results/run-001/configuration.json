@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "command": "python3 experiments/e4-1/run.py",
+  "source_hashes": {
+    "experiments/e4-1/run.py": "e0e3767935a33adcfb4fed71fe10b41dd73c438a35eebc2f920206a01f4603ec",
+    "experiments/e4-1/PROTOCOL.md": "a1150b3fd82f339def3c7a2573a799aa47d9b4bfc3018bfb60b1b251e1b3b57a",
+    "experiments/e4-boundary/run.py": "35ea958519316b54b221882a1a74e8d2c2692cba3fb262790cab3e4395449597",
+    "experiments/e4-boundary/fixtures.json": "d323883892ab12d88c7d5aa68283ff7f6390d88f9f2b18b7779d9897e64c4d06"
+  },
+  "model_calls": 0,
+  "raw_bytes": 9251840,
+  "raw_sha256": "cf10ce3a9695039b5b16910669e0f2fd0e18c4cf40f67bee07449bb8fdbaf51c"
+}

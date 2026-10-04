@@ -56,3 +56,13 @@ The source registers in the imported reports are authoritative for this baseline
 - **Important primary sources:** Existing source registers only; no additional external retrieval.
 - **Next experiment:** One-field restoration versus conservative missing-state semantics; explicit criteria in RESULTS.
 - **Full artifacts:** [protocol](experiments/e4-boundary/PROTOCOL.md), [harness](experiments/e4-boundary/run.py), [fixtures](experiments/e4-boundary/fixtures.json), [results](experiments/e4-boundary/RESULTS.md), [raw archive](experiments/e4-boundary/results/run-001/raw.jsonl.gz), [configuration](experiments/e4-boundary/results/run-001/configuration.json).
+
+## E4.1 minimum sufficient state
+
+- Question/date: which omitted E4 fields matter independently of optimistic defaults? October 4, 2026.
+- Finding: alternatives + attempt + status suffices under both policies; receipt reference redundant in exact registry. Conservative empty prevents duplicates but loses all useful completion.
+- Counterevidence: fail-closed safety does not require rich state; minima depend on this consumer and known fixtures, not all encodings.
+- Unresolved: can sufficient state survive learned extraction and novelty economically?
+- Repositories/sources: this harness; E4 baseline; no new primary retrieval.
+- Next experiment: E7 frozen contract, heterogeneous learned components and missing-information requests.
+- Artifacts: [protocol](experiments/e4-1/PROTOCOL.md), [results](experiments/e4-1/RESULTS.md), [raw summary](experiments/e4-1/results/run-001/summary.json), [reproduction](experiments/e4-1/README.md).
