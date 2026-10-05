@@ -1,17 +1,22 @@
 # Research-agent instructions
 
 - Evidence before architectural claims.
-- Distinguish observation from inference, reported result from reproduction, and hypothesis from conclusion.
+- Distinguish observation, inference, causal evidence, hypothesis, and conclusion; distinguish reported results from reproduction.
 - Preserve contradictory evidence, limitations, uncertainty, and important negative findings.
 - Prefer primary literature and official technical documentation. Mark preprints, position papers, surveys, and engineering guidance appropriately.
 - Never convert hypotheses into conclusions without evidence. Do not describe planned experiments as completed results.
 - Every experiment requires an explicit falsification criterion before execution; specify controls, metrics, oracle limitations, and evaluation assumptions.
 - Preserve research provenance: date, source URL/revision, inspected scope, artifact lineage, and corrections.
+- Published experiment artifacts and preregistrations are provenance-sensitive. Never rewrite experiment history to make results cleaner; corrections must be explicit and dated. Preserve experiment commits and preregistration ancestry during integration.
+- Public summaries must remain traceable to canonical artifacts and retain negative findings, contradictory evidence, and limitations.
 - Search existing repository research before doing new external research. Read the full relevant artifact rather than relying only on its index summary.
 - Avoid duplicate research. Reuse existing source registers; record the actual gap before targeted retrieval.
 - Follow **existing evidence → identify actual gap → targeted retrieval → experiment**, not **question → broad web search → another research memo**.
 - Do not drift into product implementation without an explicit research reason and task authorization.
+- An experiment failure does not authorize a new architecture. Diagnose competing explanations before redesign; planned follow-ups are not completed results.
 - Preserve imported reports. Make corrections in dated annotations or explicitly documented revisions; never silently remove counterevidence.
 - Distinguish communication, reasoning, coordination, authority, verification, execution, memory, and explanation.
 - A schema proves shape, a credential grants scoped rights, a log records a report, and a check establishes a specific property under assumptions. None is automatically world truth.
-- Keep private credentials, personal data, unrelated session material, and runtime configuration out of commits. This repository is intended to remain PRIVATE.
+- This repository is intended to be PUBLIC. Keep credentials, personal data, unrelated conversation/session material, and private runtime configuration out of every commit and archive. Nonsecret reproducibility metadata may be preserved after review.
+- Before publication, review tracked content and decompressed artifacts for sensitive material. If a secret is found, report its path/commit and historical exposure; do not silently delete evidence or rewrite history.
+- Do not merge to main, force-push, or rewrite published history without explicit authorization.
