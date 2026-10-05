@@ -1,0 +1,5 @@
+Before run-001: python3 -m unittest -v test_harness
+5 tests passed: effect gate bypass, replay idempotency, unsupported completion claim, foreign receipt, unique fixtures/private producer state.
+Run-001: python3 run.py --output results/run-001
+Exit code 0; 640 rows.
+This file records observed command outcomes, not a verbatim captured terminal log.

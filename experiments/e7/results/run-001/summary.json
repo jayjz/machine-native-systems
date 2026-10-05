@@ -1,0 +1,1062 @@
+{
+  "groups": [
+    {
+      "producer": "bayes",
+      "consumer": "bayes",
+      "arm": "adaptive",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 8,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 12,
+      "requested_bytes": 480,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 631.9,
+      "median_inference_ns": 555566.0,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "bayes",
+      "consumer": "bayes",
+      "arm": "explicit",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 20,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 606.35,
+      "median_inference_ns": 643165.5,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "bayes",
+      "consumer": "bayes",
+      "arm": "hybrid",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 0,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 849.525,
+      "median_inference_ns": 647091.5,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "bayes",
+      "consumer": "bayes",
+      "arm": "rich",
+      "n": 40,
+      "proposal_correct": 37,
+      "decision_correct": 37,
+      "useful": 14,
+      "eligible": 16,
+      "abstained": 22,
+      "escalated": 1,
+      "withheld_eligible": 2,
+      "unsupported_release": 1,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 0,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 1,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 239.175,
+      "median_inference_ns": 572615.5,
+      "registry_reads": 104,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 4
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 3
+        },
+        "control": {
+          "n": 8,
+          "correct": 6
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 8
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 8
+        }
+      },
+      "failures": [
+        "control-00",
+        "control-04",
+        "conflicting_notes-24"
+      ]
+    },
+    {
+      "producer": "bayes",
+      "consumer": "linear",
+      "arm": "adaptive",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 8,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 12,
+      "requested_bytes": 480,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 631.9,
+      "median_inference_ns": 886792.5,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "bayes",
+      "consumer": "linear",
+      "arm": "explicit",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 20,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 606.35,
+      "median_inference_ns": 827465.5,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "bayes",
+      "consumer": "linear",
+      "arm": "hybrid",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 0,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 849.525,
+      "median_inference_ns": 884508.0,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "bayes",
+      "consumer": "linear",
+      "arm": "rich",
+      "n": 40,
+      "proposal_correct": 40,
+      "decision_correct": 40,
+      "useful": 16,
+      "eligible": 16,
+      "abstained": 22,
+      "escalated": 0,
+      "withheld_eligible": 0,
+      "unsupported_release": 0,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 0,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 0,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 239.175,
+      "median_inference_ns": 757411.0,
+      "registry_reads": 110,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 4
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 8
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 8
+        }
+      },
+      "failures": []
+    },
+    {
+      "producer": "linear",
+      "consumer": "bayes",
+      "arm": "adaptive",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 8,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 12,
+      "requested_bytes": 480,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 633.025,
+      "median_inference_ns": 854718.5,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "linear",
+      "consumer": "bayes",
+      "arm": "explicit",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 20,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 607.475,
+      "median_inference_ns": 746372.0,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "linear",
+      "consumer": "bayes",
+      "arm": "hybrid",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 0,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 850.65,
+      "median_inference_ns": 758477.5,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "linear",
+      "consumer": "bayes",
+      "arm": "rich",
+      "n": 40,
+      "proposal_correct": 37,
+      "decision_correct": 37,
+      "useful": 14,
+      "eligible": 16,
+      "abstained": 22,
+      "escalated": 1,
+      "withheld_eligible": 2,
+      "unsupported_release": 1,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 0,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 1,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 239.175,
+      "median_inference_ns": 727087.0,
+      "registry_reads": 104,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 4
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 3
+        },
+        "control": {
+          "n": 8,
+          "correct": 6
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 8
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 8
+        }
+      },
+      "failures": [
+        "control-00",
+        "control-04",
+        "conflicting_notes-24"
+      ]
+    },
+    {
+      "producer": "linear",
+      "consumer": "linear",
+      "arm": "adaptive",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 8,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 12,
+      "requested_bytes": 480,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 633.025,
+      "median_inference_ns": 935782.0,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "linear",
+      "consumer": "linear",
+      "arm": "explicit",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 20,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 607.475,
+      "median_inference_ns": 864841.5,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "linear",
+      "consumer": "linear",
+      "arm": "hybrid",
+      "n": 40,
+      "proposal_correct": 29,
+      "decision_correct": 29,
+      "useful": 15,
+      "eligible": 16,
+      "abstained": 12,
+      "escalated": 1,
+      "withheld_eligible": 1,
+      "unsupported_release": 10,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 0,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 10,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 850.65,
+      "median_inference_ns": 927644.0,
+      "registry_reads": 164,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 2
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 4
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 4
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "failures": [
+        "novel_top-09",
+        "novel_top-11",
+        "novel_top-13",
+        "novel_top-15",
+        "novel_nested-17",
+        "novel_nested-19",
+        "novel_nested-21",
+        "novel_nested-23",
+        "changed_semantics-29",
+        "changed_semantics-31",
+        "state_fault-39"
+      ]
+    },
+    {
+      "producer": "linear",
+      "consumer": "linear",
+      "arm": "rich",
+      "n": 40,
+      "proposal_correct": 40,
+      "decision_correct": 40,
+      "useful": 16,
+      "eligible": 16,
+      "abstained": 22,
+      "escalated": 0,
+      "withheld_eligible": 0,
+      "unsupported_release": 0,
+      "producer_scope_error": 0,
+      "semantic_unavailable": 0,
+      "authority_violations": 0,
+      "duplicates": 0,
+      "incoherent_effects": 0,
+      "false_verifications": 0,
+      "recovery_correct": 3,
+      "recovery_n": 3,
+      "requests": 0,
+      "requested_bytes": 0,
+      "full_source_bytes": 8807,
+      "mean_payload_bytes": 239.175,
+      "median_inference_ns": 1057467.5,
+      "registry_reads": 110,
+      "families": {
+        "changed_semantics": {
+          "n": 4,
+          "correct": 4
+        },
+        "conflicting_notes": {
+          "n": 4,
+          "correct": 4
+        },
+        "control": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_nested": {
+          "n": 8,
+          "correct": 8
+        },
+        "novel_top": {
+          "n": 8,
+          "correct": 8
+        },
+        "state_fault": {
+          "n": 8,
+          "correct": 8
+        }
+      },
+      "failures": []
+    }
+  ],
+  "replacement_disagreement_cases": {
+    "rich": 3,
+    "explicit": 0,
+    "hybrid": 0,
+    "adaptive": 0
+  },
+  "rows": 640,
+  "unique_cases": 40,
+  "development_validation": {
+    "producer_linear": {
+      "resubstitution_correct": 216,
+      "n": 216
+    },
+    "producer_bayes": {
+      "resubstitution_correct": 216,
+      "n": 216
+    },
+    "consumer_linear": {
+      "resubstitution_correct": 1728,
+      "n": 1728
+    },
+    "consumer_bayes": {
+      "resubstitution_correct": 1692,
+      "n": 1728
+    }
+  }
+}

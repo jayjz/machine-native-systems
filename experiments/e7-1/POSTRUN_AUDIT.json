@@ -1,0 +1,384 @@
+{
+  "assessment_bundle_training_lookup": {
+    "reliable/linear": {
+      "records": 216,
+      "unique_complete_bundles": 62,
+      "bundles_with_opposite_truth_labels": 0,
+      "training_lookup_consistent": true
+    },
+    "reliable/bayes": {
+      "records": 216,
+      "unique_complete_bundles": 20,
+      "bundles_with_opposite_truth_labels": 0,
+      "training_lookup_consistent": true
+    },
+    "decor9101/linear": {
+      "records": 216,
+      "unique_complete_bundles": 80,
+      "bundles_with_opposite_truth_labels": 0,
+      "training_lookup_consistent": true
+    },
+    "decor9101/bayes": {
+      "records": 216,
+      "unique_complete_bundles": 37,
+      "bundles_with_opposite_truth_labels": 0,
+      "training_lookup_consistent": true
+    },
+    "decor9102/linear": {
+      "records": 216,
+      "unique_complete_bundles": 80,
+      "bundles_with_opposite_truth_labels": 0,
+      "training_lookup_consistent": true
+    },
+    "decor9102/bayes": {
+      "records": 216,
+      "unique_complete_bundles": 36,
+      "bundles_with_opposite_truth_labels": 0,
+      "training_lookup_consistent": true
+    }
+  },
+  "warning": "Binary assessment labels were decorrelated, but full decimal-confidence bundles remain empirically label-identifying in these development records. This does not establish that fitted consumers used numerical memorization.",
+  "replacement_disagreement_cases": [
+    {
+      "regime": "decor9101",
+      "arm": "adaptive",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "decor9101",
+      "arm": "adaptive",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 0
+    },
+    {
+      "regime": "decor9101",
+      "arm": "adaptive",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 6
+    },
+    {
+      "regime": "decor9101",
+      "arm": "adaptive",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 28
+    },
+    {
+      "regime": "decor9101",
+      "arm": "explicit",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "decor9101",
+      "arm": "explicit",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 0
+    },
+    {
+      "regime": "decor9101",
+      "arm": "explicit",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "decor9101",
+      "arm": "explicit",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 32
+    },
+    {
+      "regime": "decor9101",
+      "arm": "hybrid",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 20
+    },
+    {
+      "regime": "decor9101",
+      "arm": "hybrid",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 20
+    },
+    {
+      "regime": "decor9101",
+      "arm": "hybrid",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "decor9101",
+      "arm": "hybrid",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 12
+    },
+    {
+      "regime": "decor9101",
+      "arm": "rich",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 22
+    },
+    {
+      "regime": "decor9101",
+      "arm": "rich",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 22
+    },
+    {
+      "regime": "decor9101",
+      "arm": "rich",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 22
+    },
+    {
+      "regime": "decor9101",
+      "arm": "rich",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 22
+    },
+    {
+      "regime": "decor9102",
+      "arm": "adaptive",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "decor9102",
+      "arm": "adaptive",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 0
+    },
+    {
+      "regime": "decor9102",
+      "arm": "adaptive",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 26
+    },
+    {
+      "regime": "decor9102",
+      "arm": "adaptive",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 6
+    },
+    {
+      "regime": "decor9102",
+      "arm": "explicit",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "decor9102",
+      "arm": "explicit",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 0
+    },
+    {
+      "regime": "decor9102",
+      "arm": "explicit",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 32
+    },
+    {
+      "regime": "decor9102",
+      "arm": "explicit",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 0
+    },
+    {
+      "regime": "decor9102",
+      "arm": "hybrid",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 20
+    },
+    {
+      "regime": "decor9102",
+      "arm": "hybrid",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 20
+    },
+    {
+      "regime": "decor9102",
+      "arm": "hybrid",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 12
+    },
+    {
+      "regime": "decor9102",
+      "arm": "hybrid",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 0
+    },
+    {
+      "regime": "decor9102",
+      "arm": "rich",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 22
+    },
+    {
+      "regime": "decor9102",
+      "arm": "rich",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 22
+    },
+    {
+      "regime": "decor9102",
+      "arm": "rich",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 22
+    },
+    {
+      "regime": "decor9102",
+      "arm": "rich",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 22
+    },
+    {
+      "regime": "reliable",
+      "arm": "adaptive",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 2
+    },
+    {
+      "regime": "reliable",
+      "arm": "adaptive",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 2
+    },
+    {
+      "regime": "reliable",
+      "arm": "adaptive",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "reliable",
+      "arm": "adaptive",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 33
+    },
+    {
+      "regime": "reliable",
+      "arm": "explicit",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "reliable",
+      "arm": "explicit",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 0
+    },
+    {
+      "regime": "reliable",
+      "arm": "explicit",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "reliable",
+      "arm": "explicit",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 39
+    },
+    {
+      "regime": "reliable",
+      "arm": "hybrid",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 12
+    },
+    {
+      "regime": "reliable",
+      "arm": "hybrid",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 12
+    },
+    {
+      "regime": "reliable",
+      "arm": "hybrid",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 0
+    },
+    {
+      "regime": "reliable",
+      "arm": "hybrid",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 37
+    },
+    {
+      "regime": "reliable",
+      "arm": "rich",
+      "access": "masked",
+      "orientation": "actual",
+      "cases": 4
+    },
+    {
+      "regime": "reliable",
+      "arm": "rich",
+      "access": "masked",
+      "orientation": "complement",
+      "cases": 4
+    },
+    {
+      "regime": "reliable",
+      "arm": "rich",
+      "access": "present",
+      "orientation": "actual",
+      "cases": 4
+    },
+    {
+      "regime": "reliable",
+      "arm": "rich",
+      "access": "present",
+      "orientation": "complement",
+      "cases": 4
+    }
+  ],
+  "producer_known_scope_errors": 0,
+  "tool_versions": {
+    "git": "git version 2.51.1",
+    "GitHub_connector": "Version not exposed; exact git object SHAs and trees recorded."
+  }
+}

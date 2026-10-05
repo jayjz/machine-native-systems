@@ -38,6 +38,34 @@ Semantic interface discovery and evolution; calibration under interaction and sh
 
 ## Experimentally established claims
 
-**No proposed experiment in this research program was executed by these investigations.** No general architectural superiority claim is established.
+**At the October 2–3 synthesis baseline, no proposed experiment had been executed.** Subsequent finite E4 evidence is recorded below; no general architectural superiority claim is established.
 
 External papers report task- or model-specific experiments under their stated conditions. TEMPER reports validation macro F1 0.9539 versus 0.8864 for its compared baselines, but this session did not reproduce it or establish calibration, OOS behavior, general-model superiority, or full-system savings. Repository tests and source inspection establish narrower implementation facts and should not be promoted into thesis-level results.
+
+## E4 evidence update — October 4 UTC / October 3 local, 2026
+
+See [protocol](experiments/e4-boundary/PROTOCOL.md), [results and confounds](experiments/e4-boundary/RESULTS.md), and lossless raw results. 20 unique fixtures, 640 crossed scripted executions, zero model calls.
+
+Observation: controlled-prose, full JSON, and hybrid arms tie on decisions, recovery, and scripted replacement. Compact JSON disagrees in six unique cases and duplicates effects in two; no unauthorized effect or narrow false completion verification is recorded. Strict consumers reject v2, losing useful work relative to compatible consumers.
+
+H1 gains no evidence of typed-format superiority; any claim that nonlinguistic encoding is necessary here is weakened. Controlled prose already carries explicit semantics, so contract versus no contract is untested. H2 has narrow mechanism-check evidence under a shared gate. H4 has fixture-specific evidence about attempt linkage. H5 has authored-adapter compatibility evidence, not learned component generalization. H3 remains untested.
+
+Optimistic compact defaults are a confound. The result does not establish that all dropped fields are necessary; conservative compact behavior remains an untested rival. General empirical advantage remains unresolved. Next justified experiment: one-field restoration versus conservative missing-state semantics.
+
+## E4.1 evidence update — October 4, 2026
+
+[Full results](experiments/e4-1/RESULTS.md): 32 field-subset/default-policy arms plus reference, 20 known fixtures. Conservative compact eliminates duplicates but withholds every eligible completion. Both restored fields recover old-attempt outcomes but do not support fresh useful execution without status. Alternatives + attempt + status is sufficient/minimal among these four omissions under either policy; receipt reference is redundant under exact attempt-indexed independent lookup.
+
+H1: narrower sufficient-state evidence only; fail-closed defaults alone can prevent incoherent effects. H4: independent attempt linkage matters here, mandatory transmission of receipt reference does not. H5: unchanged scripted-adapter scope. These are conditional reproduced claims in this fixture world, not general architecture guarantees. No H2/H3 update.
+
+## E7 evidence update — October 4, 2026
+
+[Results and deviations](experiments/e7/RESULTS.md). Frozen development contract, two locally fitted model families on each side, 40 novel-location/variable cases and 640 correlated executions. Rich context: 40/40 linear-consumer decisions, 37/40 NB; explicit/hybrid/adaptive: 29/40 in all four configurations. Adaptive retrieved existing top-level notes cheaply (5.45% source bytes) but changed no decision; hybrid had complete context and still failed. Contracted arms had ten semantically incoherent releases per configuration despite valid grants and matching receipts; rich had zero/one. No credential violation/duplicate/narrow false verification in any arm.
+
+H1 is materially weakened for economical fixed-contract/adaptive sufficiency in this learned fixture world; explicit overhead did not buy coherent novelty behavior. Keep the leading hypothesis falsifiable: it is not experimentally established. Missing facts explain explicit collisions but not hybrid failures; a producer-belief shortcut is a proposed cause, not a finding. H5 is qualified: replacement without private state is possible here but consistently wrong behavior is not semantic interoperability success. H4 retains only the prior attempt-lookup evidence; H2/H3 unchanged. Familiar vocabulary, generated same-author cases, two bounded statistical families, shared executor and an inventory-first (not learned information-seeking) adaptive policy sharply limit generalization. Next: E7.1 reliable/fallible producer belief × present/masked assessment at equal supporting context, new untouched cases.
+
+## E7.1 causal evidence update — October 4, 2026
+
+[Preregistered results](experiments/e7-1/RESULTS.md): 40 new cases, 7,680 correlated crossed executions. Reliable hybrid assessment masking improves novelty 12/24→24/24 linear, 21/24 NB, preserving 12/12 safe novelty completions. Three configurations satisfy shortcut criterion A; NB producer→NB consumer fails the required direction-sensitivity control. Preregistered pooled verdict D, not universal shortcutting or boundary success. Decorrelated training is inconsistent and harms NB's rich control; complete decimal-confidence bundles remain label-identifying in development despite binary decorrelation (a postrun descriptive finding, not proven model memorization).
+
+H1: retain E7's sufficiency/economy weakness; narrow an exclusive boundary-blockage interpretation because unchanged hybrid can use contradictory facts after masking. Assessment interference is causally observed; reliable-training shortcut learning is not uniquely established across configurations. H5: private-state-free replacement does not ensure identical causal/semantic behavior; no general success claim. H2/H3/H4 unchanged. Full40-case useful completion can decrease despite novelty improvement, so masking is not established as a remedy. Next is E7.2 confidence-matched/presence-controlled diagnosis, not an escape-hatch architecture.

@@ -1,0 +1,42 @@
+{
+  "date_local": "2026-10-04 America/New_York",
+  "date_utc": "2026-10-05",
+  "branch": "research/e7-1-belief-shortcut",
+  "baseline": "bf1003f3fdde28c3d518f661ce45aa8a42c08cdd",
+  "preregistration": "89970c2c8dc9e2374b056d33d7b47a394af5e7c8",
+  "protocol_published_before_evaluation": true,
+  "snapshots": [
+    {
+      "local": "ab1378ec9f51885504d09e8a031f9dfd1083bb7b",
+      "canonical": "74cd31f6cdf70245b79206d12346203b5d3f4ef9",
+      "tree": "902b817b46af055b427ebe304013156d1cf73efa",
+      "parent": "89970c2c8dc9e2374b056d33d7b47a394af5e7c8"
+    },
+    {
+      "local": "7b4bb3a5a066f21a85e0e9ccf6fb1655b66132b1",
+      "canonical": "cde946caf2a49f7593b7c1a48550f71dbbdb5dae",
+      "tree": "eaac23d67fcd358d9d99635bdd0306a3c79c9e0a",
+      "parent": "74cd31f6cdf70245b79206d12346203b5d3f4ef9"
+    }
+  ],
+  "prior_remote_tips_unchanged": {
+    "main": "760697b40d2946647a5a69301f4ad34bfc07e2e8",
+    "research/e4-boundary-handoff-20261004": "dffa582a3fe7f2445617e22a87d4c7ed2c0ea480",
+    "research/e4-1-e7-semantic-sufficiency": "bf1003f3fdde28c3d518f661ce45aa8a42c08cdd"
+  },
+  "checks": {
+    "raw_and_decompressed_integrity": true,
+    "evaluation_source_unchanged": true,
+    "exact_refit_7680_non_timing_outputs": true,
+    "baseline_tests": true,
+    "prior_research_and_experiment_files_unchanged": true,
+    "credential_patterns_checked_including_archives": true,
+    "no_PR_or_merge": true
+  },
+  "limitations": [
+    "same-author bounded familiar-cue novelty",
+    "complete assessment bundles remain label-identifying despite binary decorrelation",
+    "pooled verdict D; no escape-hatch/retrieval architecture implemented",
+    "initial reproduction discovery namespace collision preserved; only new postrun test naming/path corrected"
+  ]
+}

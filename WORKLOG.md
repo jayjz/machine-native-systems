@@ -31,3 +31,33 @@ User requested `jayjz/machine-native-systems` as a PRIVATE research repository. 
 Imported both reports without edits and exported the complete text available from the pasted transcript. Added questions, hypotheses, experiment consolidation, index, agent instructions, and provenance notes. These are derived organizational documents, not new empirical results.
 
 See [PRESERVATION_INVENTORY.md](research/session/PRESERVATION_INVENTORY.md) for byte-integrity records and unavailable raw materials. Future work must follow existing evidence → actual gap → targeted retrieval → experiment.
+
+## October 4 UTC / October 3 local, 2026 — E4 actionable boundary experiment
+
+Read canonical main research, hypotheses, questions, six proposals, provenance and AGENTS before implementation. Base revision `760697b40d2946647a5a69301f4ad34bfc07e2e8`. Chose E4 for a cheap direct handoff comparison; E3 semantic omission and a small E5 recovery subset are explicitly included. No new literature retrieval.
+
+Preregistered protocol/confounds in a local commit before implementation. Implemented a Python-standard-library synthetic release simulator, four wire formats, two scripted producer representations, two consumer-version policies, 20 oracle fixtures and replacement/replay. Five trust-boundary/integrity tests passed; ran 640 rows once. Raw rows were losslessly compressed and checksummed; no evaluated source or fixture was tuned afterward.
+
+Observed full-format tie, six compact disagreements, two duplicate-effect fixtures, no credential violations/narrow false verification, and explicit version compatibility tax. Recorded that full equality is designed and compact's optimistic defaults are a confound. Do not infer a typed-format or intelligence-replacement advantage. Updated hypothesis status without editing imported research reports. Next test justified: one-field restoration versus conservative missing-state semantics. Research branch only; main not merged.
+
+## October 4, 2026 — E4.1
+
+Read AGENTS/E4 protocol, code, results, raw summary, hypotheses/questions/provenance before changing work. Confirmed local E4 tree equals remote E4 tree `797be2d81539d1932f15e84dd70ddb3d3eac925b`. Branch descends from E4; main untouched. Preregistered exhaustive four-field subset × default-policy experiment (local protocol commit `7ea4dc4`). Reused E4 consumer/world/audit unmodified. Eight checks passed, 5,280 rows archived losslessly. Observed predicted three-field minimum and receipt-reference redundancy; retained negative result that fail-closed compact prevents duplicates without useful completion. No literature/model calls. Prior artifacts unchanged. E7 next, subject to available local learned-model tooling.
+
+## October 4, 2026 — E7
+
+After E4.1 completion, checked available inference capabilities: no model inference tool/neural runtime, but local scikit-learn available. Chose actual trained discriminative/generative text models, explicitly limiting the intelligence/generalization claim. Froze protocol/confounds, contract and development source in `9912049` before creating heldout.py. Models train without heldout import; no schema/source/threshold/model tuning after evaluation. Four checks passed. Ran 40 same-author held-out variable/layout cases across four learned pairings and four conditions; archived 640 complete rows, datasets and fitted parameters. No literature retrieval or paid inference.
+
+Negative finding: rich outperforms explicit, hybrid and adaptive; cheap existing-field requests do not help, and even full hybrid support is ignored. Predeclared weakening criterion met. Recorded inventory-first adaptive deviation and limited novelty, classifier cognition, confidence and effect oracle. Did not recast equal safe gates or consistently wrong replacement as contract success. Hypothesis changes restricted accordingly. Single next test: producer-belief shortcut factorial, without repairing E7 heldout or merged main.
+
+## October 4, 2026 — publication and reproduction validation
+
+Published exact snapshot trees through GitHub connector on `research/e4-1-e7-semantic-sufficiency`, descending directly from canonical remote E4. [Validation/provenance](experiments/VALIDATION.md) maps preexecution local snapshots to postexecution GitHub commits, records checks and two protocol deviations. Refit models and reproduced all 640 E7 recorded wires/actions/effects without interface/model changes. Original E4/raw research byte-identical. Archive hashes/aggregates, ancestry, object integrity, whitespace and synthetic-artifact secret-pattern checks passed. Main not merged/modified. Only E7.1 belief-shortcut causal test is justified next; its proposed explanation remains unestablished.
+
+## October 4, 2026 — E7.1 causal diagnostic
+
+Read AGENTS and canonical main/E4/E7 tips/protocols/results/questions/hypotheses/index/worklog/validation, E7 source and raw example messages. Remote tips unchanged: main 760697b40d2946647a5a69301f4ad34bfc07e2e8; E4 dffa582a3fe7f2445617e22a87d4c7ed2c0ea480; E7 bf1003f3fdde28c3d518f661ce45aa8a42c08cdd. Verified ancestry before creating research/e7-1-belief-shortcut from exact E7 tip.
+
+Published frozen protocol 89970c2c8dc9e2374b056d33d7b47a394af5e7c8 before implementation/new-case creation/evaluation. Local evaluated implementation freeze ab1378ec9f51885504d09e8a031f9dfd1083bb7b. Reused E7 facts/schema/renderer/families/gate/thresholds; masked all five assessment-derived paths and used two stratified 50% training flips. 40 new cases, 7,680 rows, lossless archives, no API cost or external retrieval. No schema/model/source/fixture/threshold/criteria tuning afterward.
+
+Observed masking rescue of novelty but inconsistent reliability intervention; three A configurations and one D give preregistered pooled D. Did not reclassify to preferred shortcut or architecture verdict. Full bundle confidence remains label-identifying in training; empirical lookup purity is observed, model memorization is unproven. No safe-completion claims from all-withhold NB arms. Original research/artifacts unchanged. Postrun test discovery collision retained/corrected only in new validation test; exact refit/replay and all baseline checks pass. Hypotheses updated narrowly. Single next: E7.2 matched-confidence/presence controls; no escape/retrieval architecture implemented or PR/main merge.

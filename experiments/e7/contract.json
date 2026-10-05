@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "observations": ["target", "digest", "revision", "evidence_refs"],
+  "beliefs": {"review_clear_probability": "uncalibrated learned estimate", "scope": "named development review fields only"},
+  "proposal": "release or withhold, advisory",
+  "uncertainty": "both class probabilities; no calibration claim",
+  "evidence": "references only; independently resolved",
+  "authorization": "grant reference only; independently enforced",
+  "attempted_effect": "attempt identity, known absence, or explicit unknown",
+  "observed_outcome": "report/status, never a verified outcome",
+  "unresolved_state": "unknown top-level input field names, not their contents",
+  "supporting_artifact": "optional prose/context; nonauthoritative",
+  "adaptive_request": "specific unresolved field by name, at most two requests / 1000 response bytes",
+  "consumer_versions": [1],
+  "development_review_fields": ["reviewer_note", "supporting_note"]
+}

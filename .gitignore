@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+# Local secrets and private runtime configuration; examples require review.
+.env
+.env.*
+!.env.example
+!.env.sample
+.venv/
+venv/
+*.pem
+*.key
+*.p12
+.aws/
+.ssh/

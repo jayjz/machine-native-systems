@@ -1,0 +1,10 @@
+test_authority_unchanged (test_harness.BoundaryChecks.test_authority_unchanged) ... ok
+test_masks_every_assessment_channel (test_harness.BoundaryChecks.test_masks_every_assessment_channel) ... ok
+test_new_case_integrity (test_harness.BoundaryChecks.test_new_case_integrity) ... ok
+test_stratified_flips (test_harness.BoundaryChecks.test_stratified_flips) ... ok
+test_supporting_context_equal (test_harness.BoundaryChecks.test_supporting_context_equal) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK

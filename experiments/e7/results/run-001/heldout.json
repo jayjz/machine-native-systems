@@ -1,0 +1,691 @@
+[
+  {
+    "id": "control-00",
+    "family": "control",
+    "source": {
+      "reviewer_note": "independent assessment: release approved",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "control-01",
+    "family": "control",
+    "source": {
+      "reviewer_note": "independent assessment: release blocked",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "control-02",
+    "family": "control",
+    "source": {
+      "reviewer_note": "independent assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "control-03",
+    "family": "control",
+    "source": {
+      "reviewer_note": "independent assessment: release forbidden",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "control-04",
+    "family": "control",
+    "source": {
+      "reviewer_note": "independent assessment: release clear",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "control-05",
+    "family": "control",
+    "source": {
+      "reviewer_note": "independent assessment: release blocked",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "control-06",
+    "family": "control",
+    "source": {
+      "reviewer_note": "independent assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "control-07",
+    "family": "control",
+    "source": {
+      "reviewer_note": "independent assessment: release unsafe",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "novel_top-08",
+    "family": "novel_top",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "inspection_window_0": "new condition: release clear"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "novel_top-09",
+    "family": "novel_top",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "inspection_window_0": "new condition: release forbidden"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "novel_top-10",
+    "family": "novel_top",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "inspection_window_1": "new condition: release approved"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "novel_top-11",
+    "family": "novel_top",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "inspection_window_1": "new condition: release unsafe"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "novel_top-12",
+    "family": "novel_top",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "containment_rule_2": "new condition: release approved"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "novel_top-13",
+    "family": "novel_top",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "containment_rule_2": "new condition: release forbidden"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "novel_top-14",
+    "family": "novel_top",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "withdrawn_consent_3": "new condition: release permitted"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "novel_top-15",
+    "family": "novel_top",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "withdrawn_consent_3": "new condition: release unsafe"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "novel_nested-16",
+    "family": "novel_nested",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7,
+        "scope_change_0": "new condition: release permitted"
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "novel_nested-17",
+    "family": "novel_nested",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7,
+        "scope_change_0": "new condition: release forbidden"
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "novel_nested-18",
+    "family": "novel_nested",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7,
+        "owner_instruction_1": "new condition: release allowed"
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "novel_nested-19",
+    "family": "novel_nested",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7,
+        "owner_instruction_1": "new condition: release denied"
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "novel_nested-20",
+    "family": "novel_nested",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7,
+        "storage_restriction_2": "new condition: release clear"
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "novel_nested-21",
+    "family": "novel_nested",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7,
+        "storage_restriction_2": "new condition: release unsafe"
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "novel_nested-22",
+    "family": "novel_nested",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7,
+        "scope_change_3": "new condition: release clear"
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "novel_nested-23",
+    "family": "novel_nested",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7,
+        "scope_change_3": "new condition: release denied"
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "conflicting_notes-24",
+    "family": "conflicting_notes",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "counter-observation: release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "conflicting_notes-25",
+    "family": "conflicting_notes",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "counter-observation: release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "conflicting_notes-26",
+    "family": "conflicting_notes",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "counter-observation: release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "conflicting_notes-27",
+    "family": "conflicting_notes",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "counter-observation: release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "changed_semantics-28",
+    "family": "changed_semantics",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "task_meaning_0": "release means onward redistribution: release permitted"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "changed_semantics-29",
+    "family": "changed_semantics",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "task_meaning_1": "release means onward redistribution: release forbidden"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "changed_semantics-30",
+    "family": "changed_semantics",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "task_meaning_2": "release means onward redistribution: release approved"
+    },
+    "clear": true,
+    "world": {}
+  },
+  {
+    "id": "changed_semantics-31",
+    "family": "changed_semantics",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record",
+      "task_meaning_3": "release means onward redistribution: release unsafe"
+    },
+    "clear": false,
+    "world": {}
+  },
+  {
+    "id": "state_fault-32",
+    "family": "state_fault",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {
+      "revision": 6
+    }
+  },
+  {
+    "id": "state_fault-33",
+    "family": "state_fault",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {
+      "evidence": []
+    }
+  },
+  {
+    "id": "state_fault-34",
+    "family": "state_fault",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {
+      "evidence": [
+        "e-good",
+        "e-conflict"
+      ]
+    }
+  },
+  {
+    "id": "state_fault-35",
+    "family": "state_fault",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {
+      "grant": "g-forged"
+    }
+  },
+  {
+    "id": "state_fault-36",
+    "family": "state_fault",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {
+      "attempt": "old-attempt",
+      "status": "unknown",
+      "initial_effect": true,
+      "initial_receipt": true,
+      "recovery": true
+    }
+  },
+  {
+    "id": "state_fault-37",
+    "family": "state_fault",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {
+      "attempt": "old-attempt",
+      "status": "unknown",
+      "initial_effect": true,
+      "recovery": true
+    }
+  },
+  {
+    "id": "state_fault-38",
+    "family": "state_fault",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {
+      "attempt": "__unknown_prior_effect__",
+      "status": "unknown",
+      "initial_effect": true,
+      "recovery": true
+    }
+  },
+  {
+    "id": "state_fault-39",
+    "family": "state_fault",
+    "source": {
+      "reviewer_note": "signed assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true,
+    "world": {
+      "schema_version": 2
+    }
+  }
+]
