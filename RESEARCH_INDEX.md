@@ -77,3 +77,13 @@ The source registers in the imported reports are authoritative for this baseline
 - Primary sources: existing research registers only, no new retrieval; exact local package configuration preserved.
 - Next experiment: E7.1 belief reliability/masking factorial at identical supporting context with new untouched heldout.
 - Full artifacts: [protocol](experiments/e7/PROTOCOL.md), [results](experiments/e7/RESULTS.md), [summary](experiments/e7/results/run-001/summary.json), [raw](experiments/e7/results/run-001/raw.jsonl.gz), [reproduction](experiments/e7/README.md), [postrun audit](experiments/e7/POSTRUN_ANALYSIS.json).
+
+## E7.1 producer-assessment causal diagnostic
+
+- Question/date: learned assessment shortcut versus inability to use contradictory context? October 4, 2026.
+- Finding: identical full-support hybrid with reliable consumer improves12/24→24/24 linear or21/24 NB when assessments are masked, without losing safe novelty work. Three configuration criteria A, fourth D; pooled preregistered D. No broad causal identification.
+- Counterevidence: decorrelated training fails consistently; noisy NB loses useful work even in rich control. Complete confidence bundles still identify development labels after binary decorrelation. Masking also changes lexical presence and is OOD.
+- Unresolved: can reliance be reduced when the FULL assessment bundle is genuinely nonidentifying, while supporting-fact behavior remains useful?
+- Repositories/sources: exact E7/E4 reuse; no external retrieval.
+- Next experiment: E7.2 matched-confidence factorial with neutral-presence/masking controls, new cases, fixed gate.
+- Artifacts: [protocol](experiments/e7-1/PROTOCOL.md), [results](experiments/e7-1/RESULTS.md), [raw summary](experiments/e7-1/results/run-001/summary.json), [postrun audit](experiments/e7-1/POSTRUN_AUDIT.json), [reproduction](experiments/e7-1/README.md), [validation](experiments/e7-1/VALIDATION.md).

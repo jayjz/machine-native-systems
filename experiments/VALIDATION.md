@@ -30,3 +30,7 @@ python3 -m unittest discover -s experiments/e7 -p 'test_*.py' -v
 ```
 
 Pinned E7 requirements and separate README run commands/configuration limits are committed. Reproduction does not tune on failures. Research branch only, no product framework or external literature retrieval.
+
+## E7.1 additive validation — October 4, 2026
+
+Prior validation above is preserved unchanged. New branch starts from exact canonical E7 tip bf1003f3fdde28c3d518f661ce45aa8a42c08cdd. Protocol89970c2c8dc9e2374b056d33d7b47a394af5e7c8 published before evaluation creation/execution. [E7.1 validation](e7-1/VALIDATION.md) records full7,680-output reproduction, unchanged prior evidence, raw integrity, test-discovery correction and publication mappings. No PR/main merge or prior commit/artifact modification.

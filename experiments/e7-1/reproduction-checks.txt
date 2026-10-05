@@ -1,0 +1,11 @@
+test_refit_and_all_7680_outputs (test_e71_reproduction.Reproduction.test_refit_and_all_7680_outputs) ... ok
+test_authority_unchanged (test_harness.BoundaryChecks.test_authority_unchanged) ... ok
+test_masks_every_assessment_channel (test_harness.BoundaryChecks.test_masks_every_assessment_channel) ... ok
+test_new_case_integrity (test_harness.BoundaryChecks.test_new_case_integrity) ... ok
+test_stratified_flips (test_harness.BoundaryChecks.test_stratified_flips) ... ok
+test_supporting_context_equal (test_harness.BoundaryChecks.test_supporting_context_equal) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 16.752s
+
+OK

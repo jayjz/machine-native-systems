@@ -25,3 +25,7 @@ The most important unresolved question is whether useful semantic interfaces can
 ## Executed-experiment refinement — October 4, 2026
 
 E4.1 distinguishes omission from defaults: safe nonexecution can need little state, useful coherent progress needs specific distinctions in the fixed world. E7 shifts the immediate gap from merely transporting sufficient facts to whether the consumer uses their scope and conflicts: full hybrid support was available yet ignored by learned consumers. The next uncertainty is whether reliable producer assessments induce a consumer shortcut that defeats adaptive evidence, or whether another integration/learning failure explains it. This is an inference to test, not a redesign justified by unseen success.
+
+## E7.1 refinement — October 4, 2026
+
+Assessment presence can suppress useful use of facts that already crossed an unchanged hybrid boundary. The next uncertainty is learning and integration: do full assessment bundles remain informative through confidence fingerprints, and does apparent reliance follow assessment meaning or token presence? Binary noise and masking did not isolate this consistently across configurations. Before context-recovery architecture, test confidence-controlled fallibility and presence controls with preserved safe completion. Missing-state recovery and available-state use remain separate questions.

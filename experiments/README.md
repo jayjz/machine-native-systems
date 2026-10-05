@@ -68,3 +68,7 @@ The largest actual gap is executed controlled comparisons, not another general l
 ## E7. Semantic sufficiency under novelty — executed bounded learned pilot
 
 [Protocol, exact run and limitations](e7/README.md). Two discriminative/generative classifier families on each side; frozen development interface then held-out novel variables/locations. Rich/shared, explicit, hybrid and inventory-first adaptive arms. Rich is better; adaptive retrieves missing top-level state cheaply but decisions do not improve, hybrid fails despite full context. No universal model or architecture claim. See falsification criteria and their observed failures in RESULTS. E7.1 belief-reliability × belief-masking factorial is the single justified next experiment; not implemented.
+
+## E7.1. Assessment reliability × access — executed causal diagnostic
+
+[Protocol/results/reproduction](e7-1/README.md). Frozen/published protocol before new cases; exact E7 reuse. Reliable vs two stratified 50%-fallible training regimes × present/masked assessment, with paired actual/complement assessment orientation and unchanged supporting facts. Hybrid primary. Masking improves novelty without losing safe novelty work, but retraining is inconsistent; three A configurations and one D produce pooled preregistered D. Probability fingerprints remain a manipulation confound. Authority zeros/reproducibility are not semantic success. Next E7.2 confidence-matched/presence-controlled diagnostic; not implemented. See [validation](e7-1/VALIDATION.md).

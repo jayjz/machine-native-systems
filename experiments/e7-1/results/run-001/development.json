@@ -1,0 +1,3026 @@
+[
+  {
+    "id": "dev-0",
+    "source": {
+      "reviewer_note": "review: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-1",
+    "source": {
+      "reviewer_note": "review record: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-2",
+    "source": {
+      "reviewer_note": "assessment: release permitted",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-3",
+    "source": {
+      "reviewer_note": "review: release permitted",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-4",
+    "source": {
+      "reviewer_note": "review record: release permitted",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-5",
+    "source": {
+      "reviewer_note": "assessment: release permitted",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-6",
+    "source": {
+      "reviewer_note": "review: release permitted",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-7",
+    "source": {
+      "reviewer_note": "review record: release permitted",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-8",
+    "source": {
+      "reviewer_note": "assessment: release permitted",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-9",
+    "source": {
+      "reviewer_note": "review: release permitted",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-10",
+    "source": {
+      "reviewer_note": "review record: release permitted",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-11",
+    "source": {
+      "reviewer_note": "assessment: release permitted",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-12",
+    "source": {
+      "reviewer_note": "review: release permitted",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-13",
+    "source": {
+      "reviewer_note": "review record: release permitted",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-14",
+    "source": {
+      "reviewer_note": "assessment: release permitted",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-15",
+    "source": {
+      "reviewer_note": "review: release permitted",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-16",
+    "source": {
+      "reviewer_note": "review record: release permitted",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-17",
+    "source": {
+      "reviewer_note": "assessment: release permitted",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-18",
+    "source": {
+      "reviewer_note": "review: release permitted",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-19",
+    "source": {
+      "reviewer_note": "review record: release permitted",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-20",
+    "source": {
+      "reviewer_note": "assessment: release permitted",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-21",
+    "source": {
+      "reviewer_note": "review: release permitted",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-22",
+    "source": {
+      "reviewer_note": "review record: release permitted",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-23",
+    "source": {
+      "reviewer_note": "assessment: release permitted",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-24",
+    "source": {
+      "reviewer_note": "review: release permitted",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-25",
+    "source": {
+      "reviewer_note": "review record: release permitted",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-26",
+    "source": {
+      "reviewer_note": "assessment: release permitted",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-27",
+    "source": {
+      "reviewer_note": "review: release allowed",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-28",
+    "source": {
+      "reviewer_note": "review record: release allowed",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-29",
+    "source": {
+      "reviewer_note": "assessment: release allowed",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-30",
+    "source": {
+      "reviewer_note": "review: release allowed",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-31",
+    "source": {
+      "reviewer_note": "review record: release allowed",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-32",
+    "source": {
+      "reviewer_note": "assessment: release allowed",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-33",
+    "source": {
+      "reviewer_note": "review: release allowed",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-34",
+    "source": {
+      "reviewer_note": "review record: release allowed",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-35",
+    "source": {
+      "reviewer_note": "assessment: release allowed",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-36",
+    "source": {
+      "reviewer_note": "review: release allowed",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-37",
+    "source": {
+      "reviewer_note": "review record: release allowed",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-38",
+    "source": {
+      "reviewer_note": "assessment: release allowed",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-39",
+    "source": {
+      "reviewer_note": "review: release allowed",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-40",
+    "source": {
+      "reviewer_note": "review record: release allowed",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-41",
+    "source": {
+      "reviewer_note": "assessment: release allowed",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-42",
+    "source": {
+      "reviewer_note": "review: release allowed",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-43",
+    "source": {
+      "reviewer_note": "review record: release allowed",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-44",
+    "source": {
+      "reviewer_note": "assessment: release allowed",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-45",
+    "source": {
+      "reviewer_note": "review: release allowed",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-46",
+    "source": {
+      "reviewer_note": "review record: release allowed",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-47",
+    "source": {
+      "reviewer_note": "assessment: release allowed",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-48",
+    "source": {
+      "reviewer_note": "review: release allowed",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-49",
+    "source": {
+      "reviewer_note": "review record: release allowed",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-50",
+    "source": {
+      "reviewer_note": "assessment: release allowed",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-51",
+    "source": {
+      "reviewer_note": "review: release allowed",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-52",
+    "source": {
+      "reviewer_note": "review record: release allowed",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-53",
+    "source": {
+      "reviewer_note": "assessment: release allowed",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-54",
+    "source": {
+      "reviewer_note": "review: release approved",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-55",
+    "source": {
+      "reviewer_note": "review record: release approved",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-56",
+    "source": {
+      "reviewer_note": "assessment: release approved",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-57",
+    "source": {
+      "reviewer_note": "review: release approved",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-58",
+    "source": {
+      "reviewer_note": "review record: release approved",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-59",
+    "source": {
+      "reviewer_note": "assessment: release approved",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-60",
+    "source": {
+      "reviewer_note": "review: release approved",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-61",
+    "source": {
+      "reviewer_note": "review record: release approved",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-62",
+    "source": {
+      "reviewer_note": "assessment: release approved",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-63",
+    "source": {
+      "reviewer_note": "review: release approved",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-64",
+    "source": {
+      "reviewer_note": "review record: release approved",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-65",
+    "source": {
+      "reviewer_note": "assessment: release approved",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-66",
+    "source": {
+      "reviewer_note": "review: release approved",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-67",
+    "source": {
+      "reviewer_note": "review record: release approved",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-68",
+    "source": {
+      "reviewer_note": "assessment: release approved",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-69",
+    "source": {
+      "reviewer_note": "review: release approved",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-70",
+    "source": {
+      "reviewer_note": "review record: release approved",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-71",
+    "source": {
+      "reviewer_note": "assessment: release approved",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-72",
+    "source": {
+      "reviewer_note": "review: release approved",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-73",
+    "source": {
+      "reviewer_note": "review record: release approved",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-74",
+    "source": {
+      "reviewer_note": "assessment: release approved",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-75",
+    "source": {
+      "reviewer_note": "review: release approved",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-76",
+    "source": {
+      "reviewer_note": "review record: release approved",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-77",
+    "source": {
+      "reviewer_note": "assessment: release approved",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-78",
+    "source": {
+      "reviewer_note": "review: release approved",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-79",
+    "source": {
+      "reviewer_note": "review record: release approved",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-80",
+    "source": {
+      "reviewer_note": "assessment: release approved",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-81",
+    "source": {
+      "reviewer_note": "review: release clear",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-82",
+    "source": {
+      "reviewer_note": "review record: release clear",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-83",
+    "source": {
+      "reviewer_note": "assessment: release clear",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-84",
+    "source": {
+      "reviewer_note": "review: release clear",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-85",
+    "source": {
+      "reviewer_note": "review record: release clear",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-86",
+    "source": {
+      "reviewer_note": "assessment: release clear",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-87",
+    "source": {
+      "reviewer_note": "review: release clear",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-88",
+    "source": {
+      "reviewer_note": "review record: release clear",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-89",
+    "source": {
+      "reviewer_note": "assessment: release clear",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-90",
+    "source": {
+      "reviewer_note": "review: release clear",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-91",
+    "source": {
+      "reviewer_note": "review record: release clear",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-92",
+    "source": {
+      "reviewer_note": "assessment: release clear",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-93",
+    "source": {
+      "reviewer_note": "review: release clear",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-94",
+    "source": {
+      "reviewer_note": "review record: release clear",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-95",
+    "source": {
+      "reviewer_note": "assessment: release clear",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": true
+  },
+  {
+    "id": "dev-96",
+    "source": {
+      "reviewer_note": "review: release clear",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-97",
+    "source": {
+      "reviewer_note": "review record: release clear",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-98",
+    "source": {
+      "reviewer_note": "assessment: release clear",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-99",
+    "source": {
+      "reviewer_note": "review: release clear",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-100",
+    "source": {
+      "reviewer_note": "review record: release clear",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-101",
+    "source": {
+      "reviewer_note": "assessment: release clear",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-102",
+    "source": {
+      "reviewer_note": "review: release clear",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-103",
+    "source": {
+      "reviewer_note": "review record: release clear",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-104",
+    "source": {
+      "reviewer_note": "assessment: release clear",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-105",
+    "source": {
+      "reviewer_note": "review: release clear",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-106",
+    "source": {
+      "reviewer_note": "review record: release clear",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-107",
+    "source": {
+      "reviewer_note": "assessment: release clear",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-108",
+    "source": {
+      "reviewer_note": "review: release blocked",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-109",
+    "source": {
+      "reviewer_note": "review record: release blocked",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-110",
+    "source": {
+      "reviewer_note": "assessment: release blocked",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-111",
+    "source": {
+      "reviewer_note": "review: release blocked",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-112",
+    "source": {
+      "reviewer_note": "review record: release blocked",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-113",
+    "source": {
+      "reviewer_note": "assessment: release blocked",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-114",
+    "source": {
+      "reviewer_note": "review: release blocked",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-115",
+    "source": {
+      "reviewer_note": "review record: release blocked",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-116",
+    "source": {
+      "reviewer_note": "assessment: release blocked",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-117",
+    "source": {
+      "reviewer_note": "review: release blocked",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-118",
+    "source": {
+      "reviewer_note": "review record: release blocked",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-119",
+    "source": {
+      "reviewer_note": "assessment: release blocked",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-120",
+    "source": {
+      "reviewer_note": "review: release blocked",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-121",
+    "source": {
+      "reviewer_note": "review record: release blocked",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-122",
+    "source": {
+      "reviewer_note": "assessment: release blocked",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-123",
+    "source": {
+      "reviewer_note": "review: release blocked",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-124",
+    "source": {
+      "reviewer_note": "review record: release blocked",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-125",
+    "source": {
+      "reviewer_note": "assessment: release blocked",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-126",
+    "source": {
+      "reviewer_note": "review: release blocked",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-127",
+    "source": {
+      "reviewer_note": "review record: release blocked",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-128",
+    "source": {
+      "reviewer_note": "assessment: release blocked",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-129",
+    "source": {
+      "reviewer_note": "review: release blocked",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-130",
+    "source": {
+      "reviewer_note": "review record: release blocked",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-131",
+    "source": {
+      "reviewer_note": "assessment: release blocked",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-132",
+    "source": {
+      "reviewer_note": "review: release blocked",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-133",
+    "source": {
+      "reviewer_note": "review record: release blocked",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-134",
+    "source": {
+      "reviewer_note": "assessment: release blocked",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-135",
+    "source": {
+      "reviewer_note": "review: release forbidden",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-136",
+    "source": {
+      "reviewer_note": "review record: release forbidden",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-137",
+    "source": {
+      "reviewer_note": "assessment: release forbidden",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-138",
+    "source": {
+      "reviewer_note": "review: release forbidden",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-139",
+    "source": {
+      "reviewer_note": "review record: release forbidden",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-140",
+    "source": {
+      "reviewer_note": "assessment: release forbidden",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-141",
+    "source": {
+      "reviewer_note": "review: release forbidden",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-142",
+    "source": {
+      "reviewer_note": "review record: release forbidden",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-143",
+    "source": {
+      "reviewer_note": "assessment: release forbidden",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-144",
+    "source": {
+      "reviewer_note": "review: release forbidden",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-145",
+    "source": {
+      "reviewer_note": "review record: release forbidden",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-146",
+    "source": {
+      "reviewer_note": "assessment: release forbidden",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-147",
+    "source": {
+      "reviewer_note": "review: release forbidden",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-148",
+    "source": {
+      "reviewer_note": "review record: release forbidden",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-149",
+    "source": {
+      "reviewer_note": "assessment: release forbidden",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-150",
+    "source": {
+      "reviewer_note": "review: release forbidden",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-151",
+    "source": {
+      "reviewer_note": "review record: release forbidden",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-152",
+    "source": {
+      "reviewer_note": "assessment: release forbidden",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-153",
+    "source": {
+      "reviewer_note": "review: release forbidden",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-154",
+    "source": {
+      "reviewer_note": "review record: release forbidden",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-155",
+    "source": {
+      "reviewer_note": "assessment: release forbidden",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-156",
+    "source": {
+      "reviewer_note": "review: release forbidden",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-157",
+    "source": {
+      "reviewer_note": "review record: release forbidden",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-158",
+    "source": {
+      "reviewer_note": "assessment: release forbidden",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-159",
+    "source": {
+      "reviewer_note": "review: release forbidden",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-160",
+    "source": {
+      "reviewer_note": "review record: release forbidden",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-161",
+    "source": {
+      "reviewer_note": "assessment: release forbidden",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-162",
+    "source": {
+      "reviewer_note": "review: release denied",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-163",
+    "source": {
+      "reviewer_note": "review record: release denied",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-164",
+    "source": {
+      "reviewer_note": "assessment: release denied",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-165",
+    "source": {
+      "reviewer_note": "review: release denied",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-166",
+    "source": {
+      "reviewer_note": "review record: release denied",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-167",
+    "source": {
+      "reviewer_note": "assessment: release denied",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-168",
+    "source": {
+      "reviewer_note": "review: release denied",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-169",
+    "source": {
+      "reviewer_note": "review record: release denied",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-170",
+    "source": {
+      "reviewer_note": "assessment: release denied",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-171",
+    "source": {
+      "reviewer_note": "review: release denied",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-172",
+    "source": {
+      "reviewer_note": "review record: release denied",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-173",
+    "source": {
+      "reviewer_note": "assessment: release denied",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-174",
+    "source": {
+      "reviewer_note": "review: release denied",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-175",
+    "source": {
+      "reviewer_note": "review record: release denied",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-176",
+    "source": {
+      "reviewer_note": "assessment: release denied",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-177",
+    "source": {
+      "reviewer_note": "review: release denied",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-178",
+    "source": {
+      "reviewer_note": "review record: release denied",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-179",
+    "source": {
+      "reviewer_note": "assessment: release denied",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-180",
+    "source": {
+      "reviewer_note": "review: release denied",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-181",
+    "source": {
+      "reviewer_note": "review record: release denied",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-182",
+    "source": {
+      "reviewer_note": "assessment: release denied",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-183",
+    "source": {
+      "reviewer_note": "review: release denied",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-184",
+    "source": {
+      "reviewer_note": "review record: release denied",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-185",
+    "source": {
+      "reviewer_note": "assessment: release denied",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-186",
+    "source": {
+      "reviewer_note": "review: release denied",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-187",
+    "source": {
+      "reviewer_note": "review record: release denied",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-188",
+    "source": {
+      "reviewer_note": "assessment: release denied",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-189",
+    "source": {
+      "reviewer_note": "review: release unsafe",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-190",
+    "source": {
+      "reviewer_note": "review record: release unsafe",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-191",
+    "source": {
+      "reviewer_note": "assessment: release unsafe",
+      "supporting_note": "",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-192",
+    "source": {
+      "reviewer_note": "review: release unsafe",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-193",
+    "source": {
+      "reviewer_note": "review record: release unsafe",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-194",
+    "source": {
+      "reviewer_note": "assessment: release unsafe",
+      "supporting_note": "release permitted",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-195",
+    "source": {
+      "reviewer_note": "review: release unsafe",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-196",
+    "source": {
+      "reviewer_note": "review record: release unsafe",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-197",
+    "source": {
+      "reviewer_note": "assessment: release unsafe",
+      "supporting_note": "release allowed",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-198",
+    "source": {
+      "reviewer_note": "review: release unsafe",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-199",
+    "source": {
+      "reviewer_note": "review record: release unsafe",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-200",
+    "source": {
+      "reviewer_note": "assessment: release unsafe",
+      "supporting_note": "release approved",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-201",
+    "source": {
+      "reviewer_note": "review: release unsafe",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-202",
+    "source": {
+      "reviewer_note": "review record: release unsafe",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-203",
+    "source": {
+      "reviewer_note": "assessment: release unsafe",
+      "supporting_note": "release clear",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-204",
+    "source": {
+      "reviewer_note": "review: release unsafe",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-205",
+    "source": {
+      "reviewer_note": "review record: release unsafe",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-206",
+    "source": {
+      "reviewer_note": "assessment: release unsafe",
+      "supporting_note": "release blocked",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-207",
+    "source": {
+      "reviewer_note": "review: release unsafe",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-208",
+    "source": {
+      "reviewer_note": "review record: release unsafe",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-209",
+    "source": {
+      "reviewer_note": "assessment: release unsafe",
+      "supporting_note": "release forbidden",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-210",
+    "source": {
+      "reviewer_note": "review: release unsafe",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-211",
+    "source": {
+      "reviewer_note": "review record: release unsafe",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-212",
+    "source": {
+      "reviewer_note": "assessment: release unsafe",
+      "supporting_note": "release denied",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-213",
+    "source": {
+      "reviewer_note": "review: release unsafe",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "release meeting"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-214",
+    "source": {
+      "reviewer_note": "review record: release unsafe",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "routine record"
+    },
+    "clear": false
+  },
+  {
+    "id": "dev-215",
+    "source": {
+      "reviewer_note": "assessment: release unsafe",
+      "supporting_note": "release unsafe",
+      "observations": {
+        "target": "artifact-A",
+        "digest": "sha256:A",
+        "revision": 7
+      },
+      "decorative_comment": "artifact review"
+    },
+    "clear": false
+  }
+]
