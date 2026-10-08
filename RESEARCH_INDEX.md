@@ -87,3 +87,11 @@ The source registers in the imported reports are authoritative for this baseline
 - Repositories/sources: exact E7/E4 reuse; no external retrieval.
 - Next experiment: E7.2 matched-confidence factorial with neutral-presence/masking controls, new cases, fixed gate.
 - Artifacts: [protocol](experiments/e7-1/PROTOCOL.md), [results](experiments/e7-1/RESULTS.md), [raw summary](experiments/e7-1/results/run-001/summary.json), [postrun audit](experiments/e7-1/POSTRUN_AUDIT.json), [reproduction](experiments/e7-1/README.md), [validation](experiments/e7-1/VALIDATION.md).
+
+## E7.2 confidence-matched, presence-controlled diagnostic — design only
+
+- Date/status: October 8, 2026. Preregistration prepared for immutable commit publication; no implementation, new cases, fitted models or evaluation.
+- Goal: identify the development-reliability contribution to assessment reliance and test persistence after fixed confidence, complete-bundle nonidentifiability and development/evaluation presence controls.
+- Design: exact per-source fallible bundle crossing; matched class/bundle marginals; same-case positive/negative/masked/neutral hybrid inputs; matched-rich and rich-only capacity controls; separate blocked release and useful safe completion.
+- Limits: finite bounded classifier world; neutral matching does not eliminate all lexical/normalization effects. Independently authored evaluation is required and has not yet been supplied. No architecture change is justified by this unrun design.
+- Artifacts: [preregistration](experiments/e7-2/PROTOCOL.md), [frozen evaluation plan](experiments/e7-2/EVALUATION_PLAN.json), [implementation contract](experiments/e7-2/IMPLEMENTATION_CONTRACT.md), [targeted methodology](experiments/e7-2/METHODOLOGY.md), [baseline/validation](experiments/e7-2/VALIDATION.md).

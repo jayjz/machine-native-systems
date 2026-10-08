@@ -72,3 +72,7 @@ The largest actual gap is executed controlled comparisons, not another general l
 ## E7.1. Assessment reliability × access — executed causal diagnostic
 
 [Protocol/results/reproduction](e7-1/README.md). Frozen/published protocol before new cases; exact E7 reuse. Reliable vs two stratified 50%-fallible training regimes × present/masked assessment, with paired actual/complement assessment orientation and unchanged supporting facts. Hybrid primary. Masking improves novelty without losing safe novelty work, but retraining is inconsistent; three A configurations and one D produce pooled preregistered D. Probability fingerprints remain a manipulation confound. Authority zeros/reproducibility are not semantic success. Next E7.2 confidence-matched/presence-controlled diagnostic; not implemented. See [validation](e7-1/VALIDATION.md).
+
+## E7.2. Confidence and presence controls — preregistration only
+
+[Design and implementation contract](e7-2/README.md), prepared October 8, 2026. Complete fallible bundles crossed within each source, matched reliable/fallible marginals, development-exposed present/masked/neutral conditions, rich competence controls and independent new evaluation requirement. No runner, cases, fitting or results. The committed protocol and evaluation plan must precede implementation/case creation; separate implementation/evaluation freezes and authorization precede evaluation. No context-recovery architecture is implemented.
