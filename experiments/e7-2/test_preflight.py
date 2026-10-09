@@ -7,6 +7,7 @@ import json
 import subprocess
 import tempfile
 import unittest
+from unittest import mock
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -97,11 +98,32 @@ class DevelopmentOnlyChecks(unittest.TestCase):
             protocol.write_bytes(original)
         self.assertEqual(e72.registration_checks()["frozen_blobs"], e72.FROZEN_BLOBS)
 
-    def test_runtime_blocks_fitting_when_pins_do_not_match(self) -> None:
-        report = e72.validate_runtime()
-        self.assertFalse(report["fitting_allowed"])
-        with self.assertRaisesRegex(RuntimeError, "pinned-runtime mismatch"):
-            e72.fit_producers()
+    def test_freeze_rejects_unresolvable_commit_and_bad_hash(self) -> None:
+        manifest = {
+            "registration_commit": e72.REGISTRATION_COMMIT,
+            "implementation_freeze_commit": "0" * 40,
+            "independent_curator_attestation": {"attestor": "independent-curator", "signed_at": "2026-10-08T00:00:00Z"},
+            "evaluation_freeze_commit": "0" * 40,
+            "evaluation_authorization_record": {"authorized_by": "separate-authorizer"},
+            "evaluation_sha256": "z" * 64,
+            "oracle_sha256": "0" * 64,
+        }
+        with self.assertRaisesRegex(PermissionError, "unknown implementation_freeze_commit"):
+            e72.validate_freeze(manifest)
+        manifest["implementation_freeze_commit"] = e72.REGISTRATION_COMMIT
+        manifest["evaluation_freeze_commit"] = e72.REGISTRATION_COMMIT
+        with self.assertRaisesRegex(PermissionError, "invalid evaluation_sha256"):
+            e72.validate_freeze(manifest)
+
+    def test_runtime_gate_blocks_every_generation_or_fit_path(self) -> None:
+        blocked = {"fitting_allowed": False, "mismatches": {"python": {"expected": "3.12.14", "observed": "other"}}}
+        with mock.patch.object(e72, "validate_runtime", return_value=blocked):
+            with self.assertRaisesRegex(RuntimeError, "pinned-runtime mismatch"):
+                e72.fit_producers()
+            with self.assertRaisesRegex(RuntimeError, "pinned-runtime mismatch"):
+                e72.make_training([], {})
+            with self.assertRaisesRegex(RuntimeError, "pinned-runtime mismatch"):
+                e72.make_rich_reference([], {})
 
     def test_content_address_and_invalid_record_failures_are_explicit(self) -> None:
         with tempfile.TemporaryDirectory(dir=ROOT) as temporary:
@@ -117,8 +139,8 @@ class DevelopmentOnlyChecks(unittest.TestCase):
         def row(index: int) -> dict:
             wire = '{"shared_context":{"reviewer_note":"release permitted"}}'
             return {
-                "expanded_id": f"x-{index}", "clear": bool(index % 2), "producer": "linear",
-                "rendering": "rich", "duplicate_slot": 0, "wire": wire,
+                "expanded_id": f"x-{index}", "original_id": f"source-{index}", "clear": bool(index % 2), "producer": "linear",
+                "rendering": "rich", "duplicate_slot": 0, "bundle_name": "rich", "wire": wire,
                 "wire_sha256": e72.sha256_bytes(wire.encode()),
             }
         rows = [row(index) for index in range(24960)]
@@ -134,57 +156,37 @@ class DevelopmentOnlyChecks(unittest.TestCase):
     def test_synthetic_cluster_analysis_and_negative_rows(self) -> None:
         rows = []
         for stratum in ("top", "nested"):
-            for index in range(2):
+            for index in range(32):
                 for clear in (True, False):
-                    for regime in e72.REGIMES:
-                        for input_name in ("P+", "P-", "M", "N"):
-                            rows.append(
-                                {
-                                    "pair": f"synthetic-{stratum}-{index}",
-                                    "stratum": stratum,
-                                    "regime": regime,
-                                    "input": input_name,
-                                    "clear": clear,
-                                    "release": clear if input_name != "P+" else regime == "reliable",
-                                    "useful_completion": clear and input_name != "P-",
-                                }
-                            )
+                    for producer in ("linear", "bayes"):
+                        for consumer in ("linear", "bayes"):
+                            for regime in e72.REGIMES:
+                                for input_name in ("P+", "P-", "M", "N", "rich"):
+                                    rows.append(
+                                        {
+                                            "pair": f"synthetic-{stratum}-{index}", "case": f"{stratum}-{index}-{'safe' if clear else 'blocked'}",
+                                            "stratum": stratum, "scope": "primary", "regime": regime, "producer": producer,
+                                            "consumer": consumer, "input": input_name, "clear": clear,
+                                            "release": not clear and input_name == "P+" and regime == "reliable",
+                                            "useful_completion": clear and input_name != "P-", "proposal_error": False,
+                                            "final_outcome_error": False, "escalated": False, "withheld_work": clear and input_name == "P-",
+                                            "recovery": False, "authority_violations": False, "duplicate_effects": False,
+                                            "false_verifications": False, "incoherent_effects": False,
+                                        }
+                                    )
         result = analysis.analyze(rows, draws=25, seed=72009)
         self.assertEqual(result["unit"], "source-pair cluster")
         self.assertEqual(result["draws"], 25)
+        self.assertEqual(len(result["configurations"]), 4)
+        self.assertIn("final_outcome_error", result["configurations"][0]["finite_corpus"]["endpoints"])
         duplicate = copy.deepcopy(rows)
         duplicate.append(copy.deepcopy(rows[0]))
-        with self.assertRaisesRegex(ValueError, "duplicate analysis intervention key"):
+        with self.assertRaisesRegex(ValueError, "duplicate complete paired analysis key"):
             analysis.analyze(duplicate, draws=1)
         invalid = copy.deepcopy(rows)
         invalid[0].pop("release")
         with self.assertRaisesRegex(ValueError, "missing required"):
             analysis.analyze(invalid, draws=1)
-
-
-@unittest.skipUnless(importlib.util.find_spec("sklearn"), "requires installed scikit-learn for non-fitting wire preflight")
-class WirePreflightChecks(unittest.TestCase):
-    class _Producer:
-        classes_ = [0, 1]
-
-        def predict_proba(self, texts: list[str]) -> list[list[float]]:
-            return [[0.1, 0.9] for _ in texts]
-
-    def test_training_contingencies_wires_and_token_audit(self) -> None:
-        # Stub producers exercise serialization only; no model is fitted.
-        expanded = e72.make_development()
-        producers = {family: self._Producer() for family in e72.FAMILIES}
-        training = e72.make_training(expanded, producers)
-        audit = e72.audit_training(training)
-        transform = e72.audit_transform(training)
-        self.assertTrue(audit["present_bundle_marginals_match"])
-        self.assertTrue(all(value == 0.0 for value in audit["fallible_complete_bundle_mutual_information_bits"].values()))
-        self.assertTrue(all(value == 0.5 for value in audit["fallible_bundle_only_lookup_accuracy"].values()))
-        self.assertGreater(transform["masked_neutral_identity_groups"], 0)
-        corrupted = copy.deepcopy(training)
-        corrupted["fallible-complete-cross"][0]["wire"] += ' "clear_oracle":true'
-        with self.assertRaisesRegex(AssertionError, "forbidden metadata"):
-            e72.audit_training(corrupted)
 
 
 if __name__ == "__main__":

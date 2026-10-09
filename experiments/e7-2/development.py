@@ -310,7 +310,9 @@ def _assert_wire_isolated(wire: str) -> None:
 
 def make_training(expanded: list[dict[str, Any]], producers: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
     """Produce deterministic 24,960-row training datasets for R and F."""
-    e7 = e7_runtime_module()
+    # Rendering changes the fitted E7 producer's public output.  Never permit
+    # an unpinned interpreter to manufacture a corpus that looks reproducible.
+    e7 = _require_pinned_runtime()
     rows: dict[str, list[dict[str, Any]]] = {regime: [] for regime in REGIMES}
     for regime in REGIMES:
         for record in expanded:
@@ -329,7 +331,7 @@ def make_training(expanded: list[dict[str, Any]], producers: dict[str, Any]) -> 
 
 def make_rich_reference(expanded: list[dict[str, Any]], producers: dict[str, Any]) -> list[dict[str, Any]]:
     """Create the one rich-only, 16-times-weighted capacity reference corpus."""
-    e7 = e7_runtime_module()
+    e7 = _require_pinned_runtime()
     rows: list[dict[str, Any]] = []
     for record in expanded:
         case = {"id": record["original_id"], "source": record["source"], "world": {}}
@@ -497,8 +499,9 @@ def registration_checks(repo: Path = REPO, implementation_commit: str | None = N
     current_blobs: dict[str, str] = {}
     for relative, expected_blob in FROZEN_BLOBS.items():
         registration_blob = git("rev-parse", f"{REGISTRATION_COMMIT}:{relative}")
+        head_blob = git("rev-parse", f"HEAD:{relative}")
         working_blob = git("hash-object", relative)
-        if registration_blob != expected_blob or working_blob != expected_blob:
+        if registration_blob != expected_blob or head_blob != expected_blob or working_blob != expected_blob:
             raise AssertionError(f"preregistration blob changed: {relative}")
         current_blobs[relative] = working_blob
     plan = json.loads((repo / "experiments" / "e7-2" / "EVALUATION_PLAN.json").read_text())
@@ -548,7 +551,7 @@ def historical_archive_checks() -> dict[str, Any]:
     return result
 
 
-def validate_freeze(manifest: dict[str, Any]) -> None:
+def validate_freeze(manifest: dict[str, Any], repo: Path = REPO) -> None:
     """Fail closed; this verifies pins only and never opens an evaluation corpus."""
     required = (
         "registration_commit",
@@ -564,6 +567,28 @@ def validate_freeze(manifest: dict[str, Any]) -> None:
         raise PermissionError(f"evaluation freeze incomplete; refusing to load evaluation: {', '.join(missing)}")
     if manifest["registration_commit"] != REGISTRATION_COMMIT:
         raise PermissionError("evaluation manifest does not cite the immutable E7.2 registration")
+    for name in ("implementation_freeze_commit", "evaluation_freeze_commit"):
+        value = manifest[name]
+        if not isinstance(value, str) or len(value) != 40 or any(character not in "0123456789abcdef" for character in value):
+            raise PermissionError(f"evaluation manifest has invalid {name}")
+        result = subprocess.run(
+            ["git", "-C", str(repo), "cat-file", "-e", f"{value}^{{commit}}"],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            check=False,
+        )
+        if result.returncode != 0:
+            raise PermissionError(f"evaluation manifest names unknown {name}")
+    for name in ("evaluation_sha256", "oracle_sha256"):
+        value = manifest[name]
+        if not isinstance(value, str) or len(value) != 64 or any(character not in "0123456789abcdef" for character in value):
+            raise PermissionError(f"evaluation manifest has invalid {name}")
+    attestation = manifest["independent_curator_attestation"]
+    authorization = manifest["evaluation_authorization_record"]
+    if not isinstance(attestation, dict) or not isinstance(authorization, dict):
+        raise PermissionError("evaluation freeze requires structured curator attestation and authorization")
+    if not attestation.get("attestor") or not attestation.get("signed_at") or not authorization.get("authorized_by"):
+        raise PermissionError("evaluation freeze has incomplete curator attestation or authorization")
 
 
 def environment_manifest() -> dict[str, Any]:
