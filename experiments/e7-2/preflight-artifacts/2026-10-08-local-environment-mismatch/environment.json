@@ -1,0 +1,50 @@
+{
+  "fitting_allowed": false,
+  "mismatches": {
+    "joblib": {
+      "expected": "1.5.3",
+      "observed": null
+    },
+    "numpy": {
+      "expected": "2.3.5",
+      "observed": null
+    },
+    "python": {
+      "expected": "3.12.14",
+      "observed": "3.11.15"
+    },
+    "scipy": {
+      "expected": "1.17.0",
+      "observed": null
+    },
+    "sklearn": {
+      "expected": "1.8.0",
+      "observed": null
+    },
+    "threadpoolctl": {
+      "expected": "3.6.0",
+      "observed": null
+    }
+  },
+  "observed": {
+    "import_error": "No module named 'joblib'",
+    "python": "3.11.15"
+  },
+  "os": "Windows-10-10.0.26200-SP0",
+  "pinned": {
+    "joblib": "1.5.3",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "python_executable": "python.exe",
+  "registration_commit": "3420834c6a447b4fead476858c2f9fbb1c60dcbf",
+  "source_sha256": {
+    "experiments\\e7-2\\analysis.py": "e3c49258f50d5a849b1a0138c006f6498689f7f696946ac38a8ae9994bbcd194",
+    "experiments\\e7-2\\development.py": "4f1d440b9889826a5771c9652de9a40fe59693c505d32b67cb5dd1be649d972f",
+    "experiments\\e7-2\\run_development.py": "fd6b98d6a85441127a919582fa39d038599da5691d4835a197582ed212e7f620",
+    "experiments\\e7-2\\verify.py": "507648e75bcb8b1920eb134339525db4cc81cb8cf25fc1498474a1120cc7e881"
+  }
+}
