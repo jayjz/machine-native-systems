@@ -8,6 +8,7 @@ __pycache__/
 !.env.sample
 .venv/
 venv/
+.e72-runtime/
 *.pem
 *.key
 *.p12

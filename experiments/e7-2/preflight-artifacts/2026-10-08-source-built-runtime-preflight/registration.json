@@ -1,0 +1,13 @@
+{
+  "frozen_blobs": {
+    "experiments/e7-2/EVALUATION_PLAN.json": "dccf3fb6f778f6fed85b3340a08c7c32a7d7bc75",
+    "experiments/e7-2/IMPLEMENTATION_CONTRACT.md": "b65929e66d098cef3977f90de99389311185ffad",
+    "experiments/e7-2/METHODOLOGY.md": "0a89356120b18357ce1dcac1b28185f46308baec",
+    "experiments/e7-2/PROTOCOL.md": "443771f2101339a16fcc35108dc2b33faa292b0f",
+    "experiments/e7-2/README.md": "2981dce39e39926751a019ede31761470ceea793",
+    "experiments/e7-2/VALIDATION.md": "7ad50f5b1cbeefda002af58b913bafc42af8c39e"
+  },
+  "implementation_commit": null,
+  "plan_registration_commit_is_null": true,
+  "registration_commit": "3420834c6a447b4fead476858c2f9fbb1c60dcbf"
+}

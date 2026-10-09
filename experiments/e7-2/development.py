@@ -90,11 +90,28 @@ def e7_development_module() -> Any:
 
 
 def e7_runtime_module() -> Any:
-    """Load E7 under a unique name only when model/rendering helpers are needed."""
+    """Load E7 under a unique name only when model/rendering helpers are needed.
+
+    E7 is a historical script that imports its sibling ``development`` by a
+    bare module name.  E7.2 is also named ``development`` when invoked as a
+    script, so retain that import alias only while the archived script is
+    executed, then restore the caller's module table.  The returned E7 module
+    and its development dependency both retain unique E7.2-private names.
+    """
     e7_root = str(ROOT.parent / "e7")
     if e7_root not in sys.path:
         sys.path.insert(0, e7_root)
-    return _load_module("e72_e7_runtime", ROOT.parent / "e7" / "run.py")
+    legacy_name = "development"
+    previous = sys.modules.get(legacy_name)
+    e7_development = _load_module("e72_e7_runtime_development", ROOT.parent / "e7" / "development.py")
+    sys.modules[legacy_name] = e7_development
+    try:
+        return _load_module("e72_e7_runtime", ROOT.parent / "e7" / "run.py")
+    finally:
+        if previous is None:
+            sys.modules.pop(legacy_name, None)
+        else:
+            sys.modules[legacy_name] = previous
 
 
 def _get_path(value: dict[str, Any], path: tuple[str, ...]) -> Any:
@@ -594,8 +611,16 @@ def validate_freeze(manifest: dict[str, Any], repo: Path = REPO) -> None:
 def environment_manifest() -> dict[str, Any]:
     """Serializable environment evidence; it does not authorize fitting on mismatch."""
     report = validate_runtime()
+    lock = ROOT / "requirements-3.12.14-windows-x86_64.lock"
     report.update(
         os=platform.platform(),
+        python_runtime={
+            "implementation": platform.python_implementation(),
+            "build": list(platform.python_build()),
+            "compiler": platform.python_compiler(),
+            "version": sys.version,
+        },
+        package_lock_sha256=sha256_bytes(lock.read_bytes()) if lock.exists() else None,
         registration_commit=REGISTRATION_COMMIT,
         source_sha256={
             str(path.relative_to(REPO)): sha256_bytes(path.read_bytes())

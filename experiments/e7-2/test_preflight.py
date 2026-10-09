@@ -5,7 +5,9 @@ import copy
 import importlib.util
 import json
 import subprocess
+import sys
 import tempfile
+import types
 import unittest
 from unittest import mock
 from pathlib import Path
@@ -124,6 +126,32 @@ class DevelopmentOnlyChecks(unittest.TestCase):
                 e72.make_training([], {})
             with self.assertRaisesRegex(RuntimeError, "pinned-runtime mismatch"):
                 e72.make_rich_reference([], {})
+
+    def test_historical_runtime_import_does_not_capture_e72_development_module(self) -> None:
+        """E7's bare import must not bind to E7.2's same-named module."""
+        caller_module = sys.modules.get("development")
+        caller_alias = types.ModuleType("caller_development")
+        historical_development = types.ModuleType("historical_development")
+        historical_runtime = types.ModuleType("historical_runtime")
+
+        def load(name: str, _path: Path) -> types.ModuleType:
+            if name == "e72_e7_runtime_development":
+                return historical_development
+            if name == "e72_e7_runtime":
+                self.assertIs(sys.modules["development"], historical_development)
+                return historical_runtime
+            raise AssertionError(f"unexpected module request: {name}")
+
+        sys.modules["development"] = caller_alias
+        try:
+            with mock.patch.object(e72, "_load_module", side_effect=load):
+                self.assertIs(e72.e7_runtime_module(), historical_runtime)
+            self.assertIs(sys.modules["development"], caller_alias)
+        finally:
+            if caller_module is None:
+                sys.modules.pop("development", None)
+            else:
+                sys.modules["development"] = caller_module
 
     def test_content_address_and_invalid_record_failures_are_explicit(self) -> None:
         with tempfile.TemporaryDirectory(dir=ROOT) as temporary:

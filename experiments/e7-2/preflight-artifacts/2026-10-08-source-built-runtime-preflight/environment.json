@@ -1,0 +1,39 @@
+{
+  "fitting_allowed": true,
+  "mismatches": {},
+  "observed": {
+    "joblib": "1.5.3",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "os": "Windows-11-10.0.26200-SP0",
+  "package_lock_sha256": "7024ba23fd822fce809f120a8fc81da35c5f2cb604207e2184a2a53778f301a1",
+  "pinned": {
+    "joblib": "1.5.3",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "python_executable": "python.exe",
+  "python_runtime": {
+    "build": [
+      "heads/feat/e7-2-development-preflight:2c2f5f2",
+      "Oct  8 2026 20:54:43"
+    ],
+    "compiler": "MSC v.1950 64 bit (AMD64)",
+    "implementation": "CPython",
+    "version": "3.12.14 (heads/feat/e7-2-development-preflight:2c2f5f2, Oct  8 2026, 20:54:43) [MSC v.1950 64 bit (AMD64)]"
+  },
+  "registration_commit": "3420834c6a447b4fead476858c2f9fbb1c60dcbf",
+  "source_sha256": {
+    "experiments\\e7-2\\analysis.py": "1c89769974988c4967fc90d9dc2b4073c49da63bad370d4954e17e901c449a12",
+    "experiments\\e7-2\\development.py": "a98da7c6f1416130ab54648e0ffba49ae6582f5a0ec11f0d9947f40cbbc4e034",
+    "experiments\\e7-2\\run_development.py": "fd6b98d6a85441127a919582fa39d038599da5691d4835a197582ed212e7f620",
+    "experiments\\e7-2\\verify.py": "87326cee0aaa76f58e22f57e23fec443e5e02641435324fe3f5f0582dbf4a779"
+  }
+}

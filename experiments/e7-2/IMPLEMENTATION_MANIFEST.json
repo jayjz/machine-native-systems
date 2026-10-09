@@ -16,7 +16,15 @@
     "environment.json": "fe36916065bf0d83dea4177ff0940accc91ed7fa",
     "registration.json": "6ce319c339a2e0acbd2e97f40353030e81379f06"
   },
-  "environment_status": "blocked-before-fitting",
+  "source_built_runtime_preflight": {
+    "artifact_directory": "experiments/e7-2/preflight-artifacts/2026-10-08-source-built-runtime-preflight",
+    "cpython_source_sha256": "6c6df908d2c3fd24e6d76869e92542abd0f33aec9dfc18df8875f89660286d43",
+    "package_lock_sha256": "7024ba23fd822fce809f120a8fc81da35c5f2cb604207e2184a2a53778f301a1",
+    "environment_json_sha256": "a192f3c47c35bb26d7f3f084731fd8918174b2bd1281b74ff8d05e60edcd7933",
+    "registration_json_sha256": "c0a6de0c4747b5318fac455ec55ccb6720d57878bcf2bef61739a98350ece322",
+    "status": "runtime-pins-verified; producer-reproduction-blocked"
+  },
+  "environment_status": "runtime-established-producer-reproduction-blocked",
   "evaluation_freeze_commit": null,
   "independent_curator_attestation": null,
   "evaluation_authorization_record": null,

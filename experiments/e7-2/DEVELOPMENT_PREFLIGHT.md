@@ -22,6 +22,15 @@ python -m unittest discover -s experiments/e7-2 -p 'test_*.py' -v
 python -m compileall -q experiments/e7-2
 ```
 
+For the Windows x64 Python-3.12.14 runtime, resolve and install the checked-in
+hash lock into an isolated virtual environment. Do not install into a system
+Python and do not replace this lock with an un-hashed requirements file:
+
+```sh
+uv pip sync --python <isolated-python-3.12.14> --require-hashes --only-binary :all: \
+  experiments/e7-2/requirements-3.12.14-windows-x86_64.lock
+```
+
 Record a no-fit environment preflight:
 
 ```sh
@@ -50,7 +59,7 @@ on any mismatch rather than treating a local run as a reproduction.
 | 24,960-row mixed regimes / 24,960-row rich reference | Implemented; exercised only when scikit-learn is available |
 | R/F full-bundle marginals, exposure, F mutual information and lookup accuracy | Implemented; exercised only when scikit-learn is available |
 | Consumer-wire isolation, transform identity, tokenizer checks | Implemented; tokenizer execution requires pinned scikit-learn |
-| Fitted producer reproduction and consumer/reference fitting | Implemented but blocked until the exact runtime is supplied |
+| Fitted producer reproduction and consumer/reference fitting | Runtime established; **blocked** because the linear historical producer state differs in 32 floating-point coefficients (Bayes matches exactly) |
 | Synthetic paired-cluster analysis and negative fixtures | Implemented and tested without evaluation templates |
 | Evaluation loading | Deliberately absent; `validate_freeze` fails closed on missing pins and authorization |
 
@@ -60,3 +69,8 @@ normalization change, and it does not identify semantic trust or any internal
 mechanism. Independent curation, sealed oracle/evaluation hashes, an
 implementation/evaluation freeze, and separate execution authorization remain
 required before any evaluation can be considered.
+
+No development corpus, consumer, or rich-reference artifact may be generated
+until the historical linear producer-state discrepancy is resolved under the
+registered exact-state requirement. The recorded mismatch is a reproducibility
+blocker, not a result or a basis to relax equality tolerances.

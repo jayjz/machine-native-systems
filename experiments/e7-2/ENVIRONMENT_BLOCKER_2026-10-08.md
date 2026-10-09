@@ -1,27 +1,48 @@
-# E7.2 runtime blocker — 2026-10-08
+# E7.2 runtime availability record — 2026-10-08
 
-The frozen implementation contract requires Python 3.12.14. On this date the
-pin could not be obtained from either source consulted by the implementation:
+## Superseded initial finding
+
+The frozen implementation contract requires Python 3.12.14. The initial
+implementation check incorrectly treated the absence of a Windows installer
+as evidence that the release source was unavailable. At that point it found:
 
 - `uv 0.11.28` reported no managed or installed interpreter for `3.12.14`.
-- The official `https://www.python.org/ftp/python/3.12.14/` endpoint returned
-  HTTP 404, and the Python Windows release index does not list 3.12.14.
 
-The available interpreter is Python 3.11.15 and does not have the required ML
-packages. The runner and corpus-generation paths therefore refuse execution
-before importing/fitting models. No development fit, consumer fit, evaluation
-loading, case generation, or heldout access occurred.
+That finding did **not** establish that the source release was unavailable,
+and must not be used to justify a version substitution.
+
+## Corrected source verification
+
+The official Python 3.12.14 release page identifies the release as
+source-only and publishes `Python-3.12.14.tgz` with SHA-256
+`6c6df908d2c3fd24e6d76869e92542abd0f33aec9dfc18df8875f89660286d43`.
+The independently downloaded archive matched that SHA-256 exactly. Its
+detached signature was present and referenced signing key
+`7169605F62C751356D054A26A821E680E5FA6305`; the key was not locally trusted,
+so this record claims checksum verification, not a completed local GPG trust
+chain.
+
+An isolated x64 Release interpreter was built from that archive in the
+worktree using CPython's documented MSBuild toolset override and the installed
+Visual Studio 2026 `v145` toolset. CPython warns that `v145` is not one of its
+official-release toolsets; that compiler identity must remain in the runtime
+manifest and the runtime must pass its targeted self-checks before it can be
+used for a fit. No scientific pin was changed.
+
+The available system interpreter was Python 3.11.15 and does not satisfy the
+contract. The runner and corpus-generation paths refuse execution on it before
+importing/fitting models. No development fit, consumer fit, evaluation loading,
+case generation, or heldout access occurred under that mismatched interpreter.
 
 This is a frozen-environment availability conflict, not evidence about E7.2.
 The registration, thresholds, datasets, bundle design, and historical evidence
 remain unchanged.
 
-## Proposed dated amendment for review
+## Remaining condition before fitting
 
-Before fitting, either supply an independently archived, hash-pinned Python
-3.12.14 runtime that can be installed into an isolated environment, or publish
-a dated amendment selecting an independently retrievable Python patch release
-and requiring historical producer-state equivalence under that amended runtime.
-Do not silently substitute Python 3.11.15 or another 3.12 patch release. A new
-environment pin must precede any development fit and must be recorded in its
-own immutable manifest.
+The source-built interpreter now has the required hash-locked package
+environment. Historical E7 producer-state reproduction is nevertheless
+blocking: the Bayes state matches, while 32 linear coefficient values differ
+at roughly 1e-14. Fitting must stop until that exact-state discrepancy is
+resolved; Python 3.11.15 or another patch release remains prohibited as a
+substitute.
