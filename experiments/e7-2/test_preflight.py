@@ -4,6 +4,7 @@ from __future__ import annotations
 import copy
 import importlib.util
 import json
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -48,6 +49,15 @@ class DevelopmentOnlyChecks(unittest.TestCase):
         self.assertEqual(evidence["registration_commit"], e72.REGISTRATION_COMMIT)
         self.assertTrue(evidence["plan_registration_commit_is_null"])
         self.assertEqual(evidence["frozen_blobs"], e72.FROZEN_BLOBS)
+
+    def test_separate_manifest_resolves_registration_without_rewriting_plan(self) -> None:
+        manifest = json.loads((ROOT / "IMPLEMENTATION_MANIFEST.json").read_text())
+        self.assertEqual(manifest["registration_commit"], e72.REGISTRATION_COMMIT)
+        self.assertEqual(manifest["frozen_registration_blobs"], e72.FROZEN_BLOBS)
+        self.assertEqual(subprocess.call(
+            ["git", "-C", str(e72.REPO), "merge-base", "--is-ancestor", manifest["implementation_source_commit"], "HEAD"]
+        ), 0)
+        self.assertIsNone(json.loads((ROOT / "EVALUATION_PLAN.json").read_text())["registration_commit"])
 
     def test_historical_archives_reconstruct_read_only(self) -> None:
         archives = e72.historical_archive_checks()

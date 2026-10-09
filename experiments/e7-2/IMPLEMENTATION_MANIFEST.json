@@ -1,0 +1,26 @@
+{
+  "experiment": "E7.2",
+  "kind": "development-preflight-implementation-manifest",
+  "registration_commit": "3420834c6a447b4fead476858c2f9fbb1c60dcbf",
+  "implementation_source_commit": "02780b41bd2493e5c6617f450a2697a05e051be1",
+  "implementation_source_commit_role": "focused development/preflight code and no-fit environment evidence; not an evaluation freeze",
+  "frozen_registration_blobs": {
+    "experiments/e7-2/EVALUATION_PLAN.json": "dccf3fb6f778f6fed85b3340a08c7c32a7d7bc75",
+    "experiments/e7-2/IMPLEMENTATION_CONTRACT.md": "b65929e66d098cef3977f90de99389311185ffad",
+    "experiments/e7-2/METHODOLOGY.md": "0a89356120b18357ce1dcac1b28185f46308baec",
+    "experiments/e7-2/PROTOCOL.md": "443771f2101339a16fcc35108dc2b33faa292b0f",
+    "experiments/e7-2/README.md": "2981dce39e39926751a019ede31761470ceea793",
+    "experiments/e7-2/VALIDATION.md": "7ad50f5b1cbeefda002af58b913bafc42af8c39e"
+  },
+  "preflight_artifact_blobs": {
+    "environment.json": "fe36916065bf0d83dea4177ff0940accc91ed7fa",
+    "registration.json": "6ce319c339a2e0acbd2e97f40353030e81379f06"
+  },
+  "environment_status": "blocked-before-fitting",
+  "evaluation_freeze_commit": null,
+  "independent_curator_attestation": null,
+  "evaluation_authorization_record": null,
+  "evaluation_execution_authorized": false,
+  "heldout_material_accessed": false,
+  "scientific_claim": "No E7.2 result. R/F estimates stipulated training-regime effects only and does not identify semantic trust or an internal mediator."
+}
