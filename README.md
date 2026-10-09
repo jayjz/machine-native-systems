@@ -1,6 +1,6 @@
 # Machine-Native Systems
 
-**How should heterogeneous intelligent machine components communicate, coordinate, authorize actions, represent uncertainty, and establish evidence without assuming conversational language is the universal internal substrate?**
+**How can intelligent components communicate decision-relevant information efficiently while preserving semantic sufficiency, interoperability, adaptability under novelty, and independent verification?**
 
 Machine-Native Systems is a public research program investigating that question through preserved literature synthesis and bounded executable comparisons. It separates intelligence, authority, execution, and evidence, and tests what information must survive component boundaries. This repository is the canonical research record.
 
@@ -28,7 +28,7 @@ Canonical protocols: [E4](experiments/e4-boundary/PROTOCOL.md), [E4.1](experimen
 
 Can a learned component distinguish when producer assessments should yield to contradictory supporting context, and can that failure be diagnosed cleanly before introducing context-recovery architecture?
 
-E7.2 is a proposed confidence-matched, assessment-presence-controlled diagnostic; it has **not run**. No context-recovery or escape-hatch architecture has been validated. Diagnosis precedes redesign. See the [E7.1 postrun audit](experiments/e7-1/POSTRUN_AUDIT.json) and [next-test rationale](experiments/e7-1/RESULTS.md#hypotheses-and-single-justified-next-experiment).
+E7.2 was [preregistered in an immutable commit](https://github.com/jayjz/machine-native-systems/blob/3420834c6a447b4fead476858c2f9fbb1c60dcbf/experiments/e7-2/PROTOCOL.md) **before** [development-only implementation](https://github.com/jayjz/machine-native-systems/blob/02780b41bd2493e5c6617f450a2697a05e051be1/experiments/e7-2/DEVELOPMENT_PREFLIGHT.md). Its [current preflight record](https://github.com/jayjz/machine-native-systems/blob/f4cff7faab8f35e41aecfe5b3cd2a21cad65691f/experiments/e7-2/DEVELOPMENT_PREFLIGHT.md) reports a pinned runtime but a blocking exact-reproduction mismatch: 32 floating-point coefficients differ in the historical linear producer state (Bayes matches). **No E7.2 development fit, independently curated heldout evaluation, evaluation authorization, or result exists.** Those commits remain on research branches, not `main`. No context-recovery or escape-hatch architecture has been validated. See the [E7.1 postrun audit](experiments/e7-1/POSTRUN_AUDIT.json) for the motivation.
 
 ## Method and limits
 
